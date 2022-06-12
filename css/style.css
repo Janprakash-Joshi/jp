@@ -42,7 +42,7 @@ body{
 
 }
 .top{
-    
+    position: sticky;
     background-color: rgb(39, 39, 39);
     max-width: 30%;
     background-image: url(../img/pattern.png);
@@ -176,7 +176,7 @@ body{
 
 @media (max-width:530px) {
     .glow-on-hover{
-        width: 50px;
+        width: 70px;
         height: auto !important;
     }
     
@@ -188,6 +188,10 @@ body{
     }
     .profile-photo{
         margin-top: -10px;
+    }
+    .menu,ul,li{
+        font-size: 1rem;
+        margin: -10px;
     }
 }
 
