@@ -14,8 +14,8 @@ h2{
 }
 .contact-items{
     display: flex;
-    margin: 30px auto;
-    margin-bottom: -45px;
+    
+    margin-top: -35px;
     flex-wrap: wrap;
     align-items: center;
 
@@ -98,4 +98,18 @@ a{
 .sales-market{
     height: 275px;
 }
+}
+
+.contactform{
+    padding: 0 5rem 0 5rem;
+}
+.contactformbtn{
+    margin-top: -1rem;
+}
+
+@media (max-width:760px) {
+    
+    .contactform1{
+        display: none;
+    }
 }
