@@ -196,7 +196,9 @@ body{
     .list-info,li{
         margin-top: 1rem;
     }
-    
+    .contactform {
+        padding: 0;
+    }
 }
 
 .services{
