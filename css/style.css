@@ -35,6 +35,8 @@ body{
     display: none;
 }
 .abt{
+padding-right: 2vw;
+    margin-left: 30vw;
     max-width: 70%;
  background-color: rgb(0, 0, 0);
  
@@ -42,9 +44,10 @@ body{
 
 }
 .top{
+    border: 1px solid wheat;
     position: sticky;
     background-color: rgb(39, 39, 39);
-    max-width: 30%;
+    height: 100vh;
     background-image: url(../img/pattern.png);
 }
 .top-img{
@@ -64,7 +67,7 @@ body{
 }
 .oranged{
     text-shadow: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bolder;
     background-image: -webkit-linear-gradient(45deg,#e0040b 15%, #fc5130 65%);
     background-size: cover;
@@ -179,7 +182,9 @@ body{
         width: 70px;
         height: auto !important;
     }
-    
+    .box{
+        width: 200px !important;
+    }
 }
 @media (max-width:760px) {
     .glow-on-hover{
@@ -199,11 +204,21 @@ body{
     .contactform {
         padding: 0;
     }
+    .abt,#contact,.blogs,.services{
+        padding-left: 1.1rem;
+    }
+    .indicator{
+        width: 35vw !important;
+    height: 5.5vw !important;
+    }
+    
 }
 
 .services{
+    margin-left: 30vw;
     width: 70%;
     display: none;
+    padding-right: 2vw;
 }
 
 h1,h2,h3,h4,h5,h6,h7,p,b,label{
@@ -214,6 +229,8 @@ h1,h2,h3,h4,h5,h6,h7,p,b,label{
 }
 
 #contact{
+    padding-right: 2vw;
+    margin-left: 30vw;
     width: 70%;
     display: none;
 }
@@ -234,9 +251,10 @@ h1,h2,h3,h4,h5,h6,h7,p,b,label{
 }
 
 #blogs{
+    padding-right: 2vw;
     padding: 2rem;
     display: none;
-
+   margin-left: 30vw;
     width: 70%;
 }
 .newsletter{
@@ -244,7 +262,8 @@ h1,h2,h3,h4,h5,h6,h7,p,b,label{
     justify-content: center;
     text-align: center;
     background-color: #111;
-    margin: 1rem;
+    margin: 0,1rem,0,1rem;
+    
     border-radius: 10px;
 }
 .newsletter>input{
@@ -254,4 +273,91 @@ border-radius: 15px;
     border: 3px solid #0012e9;
     height: 45px;
     width: 40vw;
+}
+
+.fixed{
+    position: fixed;
+}
+.logo{
+    cursor: not-allowed;
+    background-color: #000;
+   
+}
+
+.homecontent{
+    max-width: 1200px;
+}
+.top-img{
+   animation: logo 25s 1;
+
+ 
+ 
+}
+@keyframes logo {
+    0%{
+        
+   transform: rotate(360deg);
+    }
+   25%{
+    
+    opacity: 1;
+    }
+    
+    50%{
+    opacity: 0.5;
+    }
+      
+    75%{
+        opacity: 0;
+        }
+
+
+
+   100%{
+    opacity: 0.5;
+    
+    }
+    
+}
+.indicator{
+   
+    
+    width: 20vw;
+    height: 4.5vw;
+    background-color: black;
+    position: absolute;
+   
+    
+}
+
+.indicator1{
+    margin-top: 1.8rem;
+    display: none;
+}
+
+.ld{
+    font-size: 1.5rem;
+    color: wheat;
+    animation:  ld 5s infinite;
+}
+@keyframes ld {
+    0%{
+        margin-left: -1rem;
+        
+    }
+    25%{
+        margin-left: 1rem;
+        color: green;
+    }
+    50%{
+        margin-left: -1rem;
+        color: white;
+    }
+    75%{
+        margin-left: 1rem;
+        color: green;
+    }
+    100%{
+        margin-left: -1rem;
+    }
 }
