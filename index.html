@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" oncontextmenu="return false">
+<html lang="en" oncontextmenu="return fale">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -404,12 +404,26 @@
                 </ul></center>
                 
            </div>
+       
+          
+           <form  method="post" name="submit-to-google-sheet1"class="newsletter">
+            <h3>Subscribe to our newsletter</h3>
+            <h6>Monthly digest of what's new and exciting from us.</h6>
+            <input type="email" placeholder="Your Email" name="Email">
+           
+            <button class="btn btn1" type="submit" style="color: white;">Subscribe</button>
+            </form>
+
+            
+         
+         <!-- <form  method="post" name="submit-to-google-sheet">
          <div class="newsletter">
-           <h3>Subscribe to our newsletter</h3>
-           <h6>Monthly digest of what's new and exciting from us.</h6>
-           <input type="text" placeholder="Your Email" >
-           <button class="btn btn1"><h7>Subscribe</h7></button>
-         </div>
+          <h3>Subscribe to our newsletter</h3>
+          <h6>Monthly digest of what's new and exciting from us.</h6>
+         
+          <input type="text" placeholder="Your Email" name="Email" >
+          <button class="btn btn1" type="submit" onclick="submitForm()"><h7>Subscribe</h7></button>
+        </div></form> -->
          <div class=" border-top end">
           
           <div style="color: white;"><center style="font-size: 15px;">
@@ -554,18 +568,17 @@
                 
             </div>
            </div>
+         
            <div class=" contactform contactform1 bg-1">
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Email address</label>
-              <input type="email" class="form-control message" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-              <textarea class="form-control message" id="exampleFormControlTextarea1" rows="5" placeholder="Enter your message here..."></textarea>
-            </div>
-            <div class="contactformbtn">
-              <button class="btn1" type="button" onclick="alert('OPPS! Currently we are not recieving direct message please E-mail us');">Submit</button>
-            </div>
+            
+              <h3>Leave a Message</h3>
+              <form  method="post" name="submit-to-google-sheet">
+               
+                <input type="email" placeholder="Your Email" name="Email" class="email"><br><br>
+                <input type="text" placeholder="Enter Message" name="Message " class="message"><br>
+                <button class="btn btn1" type="submit" name="submit" style="color: white;">Send</button>
+                </form>
+            
           </div>
          </div>
 
@@ -573,19 +586,17 @@
            
            <br><br>
            <h3 class="opps">Opps! No blogs found right now.</h3><br><br>
-          <div class=" contactform bg-1">
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Email address</label>
-              <input type="email" class="form-control message" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-              <textarea class="form-control message" id="exampleFormControlTextarea1" rows="10" placeholder="Enter your message here..."></textarea>
-            </div>
-            <div class="">
-              <button class="btn1" type="button" onclick="alert('OPPS! Currently we are not recieving direct message please E-mail us');">Submit</button>
-            </div>
-          </div>
+           <div class=" contactform contactform1 bg-1">
+            
+            <h3>Leave a Message</h3>
+            <form  method="post" name="submit-to-google-sheet2">
+             
+              <input type="email" placeholder="Your Email" name="Email" class="email"><br><br>
+              <input type="text" placeholder="Enter Message" name="Message " class="message"><br>
+              <button class="btn btn1" type="submit" name="submit" style="color: white;">Send</button>
+              </form>
+          
+        </div>
          </div>
     </div>
       
