@@ -107,9 +107,3 @@ a{
     margin-top: -1rem;
 }
 
-@media (max-width:760px) {
-    
-    .contactform1{
-        display: none;
-    }
-}
