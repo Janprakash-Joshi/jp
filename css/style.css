@@ -287,7 +287,7 @@ h1,h2,h3,h4,h5,h6,h7,p,b,label{
 }
 .newsletter>input{
 
-
+text-align: center;
 border-radius: 15px;
     border: 3px solid #0012e9;
     height: 45px;
@@ -379,4 +379,24 @@ border-radius: 15px;
     100%{
         margin-left: -1rem;
     }
+}
+
+.email{
+    border-radius: 15px;
+    border: 3px solid #0012e9;
+    height: 45px;
+    width: 40vw;
+   text-align: center;
+}
+
+.message{
+    border-radius: 15px;
+    border: 3px solid #0012e9;
+    height: 100px;
+    width: 40vw;
+    text-align: center;
+}
+.contactform{
+   margin-top: 2rem;
+    text-align: center;
 }
