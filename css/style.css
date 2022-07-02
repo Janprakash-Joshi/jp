@@ -400,3 +400,81 @@ border-radius: 15px;
    margin-top: 2rem;
     text-align: center;
 }
+
+@media (max-width:760px) {
+.top{
+    position: fixed;
+    border: none;
+    height: auto;
+    width: 100%;
+}
+
+.logo h1,h6{
+  display: none; 
+}
+.homecontent{
+    margin-top: 6rem;
+}
+.menu>ul>li{
+    margin: 15px 10px 10px 10px; 
+display: inline-flex;
+}
+.fixed{
+    display: none;
+}
+.abt, .services, #contact, #blogs{
+  margin-left: 0;
+
+     padding-right: 0; 
+     margin-left: 0 !important;
+     width: 100%;
+     max-width: 100%;
+}
+.menu>ul{
+    margin: 0px !important;
+}
+.menu{
+    
+    margin: 0 !important;
+}
+.nav{
+    z-index: 999;
+    display:block !important;
+}
+.logo1{
+    display: block !important;
+} 
+.newsletter>input {
+   
+    width: 75vw;
+}
+.email, .message{
+    width: 75vw;
+}
+.newsletter {
+ margin-right: 10px;
+}
+
+
+#blogs {
+   
+    padding: 1rem;
+}
+}
+.logo1{
+    display: none;
+}
+.nav{
+    display: none;
+}
+#n0,#y1,#y2,#y3{
+    display: none;  
+  }
+  .aninone::before{
+    animation: none;
+    background: #000;
+}
+
+#N0,#Y1,#Y2,#Y3{
+    display: none;  
+  }
