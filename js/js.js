@@ -14,6 +14,24 @@ setTimeout(abc,5000)
        var g=document.getElementById('ind3');
        var h=document.getElementById('ind4');  
 
+       var i=document.getElementById('y0');
+       var j=document.getElementById('n0');
+       var k=document.getElementById('y1');
+       var l=document.getElementById('n1');
+       var m=document.getElementById('y2');
+       var n=document.getElementById('n2');
+       var o=document.getElementById('y3');
+       var p=document.getElementById('n3');
+
+       var I=document.getElementById('Y0');
+       var J=document.getElementById('N0');
+       var K=document.getElementById('Y1');
+       var L=document.getElementById('N1');
+       var M=document.getElementById('Y2');
+       var N=document.getElementById('N2');
+       var O=document.getElementById('Y3');
+       var P=document.getElementById('N3');
+
           a.style.display = 'block';
           b.style.display = 'none';
           c.style.display = 'none';
@@ -23,6 +41,25 @@ setTimeout(abc,5000)
           f.style.display = 'none';
           g.style.display = 'block';
           h.style.display = 'none';
+
+          i.style.display = 'none';
+          j.style.display = 'block';
+          k.style.display = 'none';
+          l.style.display = 'block';
+          m.style.display = 'block';
+          n.style.display = 'none';
+          o.style.display = 'none';
+          p.style.display = 'block';
+
+
+          I.style.display = 'none';
+          J.style.display = 'block';
+          K.style.display = 'none';
+          L.style.display = 'block';
+          M.style.display = 'block';
+          N.style.display = 'none';
+          O.style.display = 'none';
+          P.style.display = 'block';
    }
 
    function home() {
@@ -35,7 +72,25 @@ setTimeout(abc,5000)
        var f=document.getElementById('ind2');
        var g=document.getElementById('ind3');
        var h=document.getElementById('ind4');
-           
+
+       var I=document.getElementById('Y0');
+       var J=document.getElementById('N0');
+       var K=document.getElementById('Y1');
+       var L=document.getElementById('N1');
+       var M=document.getElementById('Y2');
+       var N=document.getElementById('N2');
+       var O=document.getElementById('Y3');
+       var P=document.getElementById('N3');
+
+       var i=document.getElementById('y0');
+       var j=document.getElementById('n0');
+       var k=document.getElementById('y1');
+       var l=document.getElementById('n1');
+       var m=document.getElementById('y2');
+       var n=document.getElementById('n2');
+       var o=document.getElementById('y3');
+       var p=document.getElementById('n3');
+      
           a.style.display = 'none';
           b.style.display = 'block';
           c.style.display = 'none';
@@ -46,6 +101,25 @@ setTimeout(abc,5000)
           g.style.display = 'none';
           h.style.display = 'none';
 
+          i.style.display = 'block';
+          j.style.display = 'none';
+          k.style.display = 'none';
+          l.style.display = 'block';
+          m.style.display = 'none';
+          n.style.display = 'block';
+          o.style.display = 'none';
+          p.style.display = 'block';
+
+          I.style.display = 'block';
+          J.style.display = 'none';
+          K.style.display = 'none';
+          L.style.display = 'block';
+          M.style.display = 'none';
+          N.style.display = 'block';
+          O.style.display = 'none';
+          P.style.display = 'block';
+          
+         
           
    }
 
@@ -60,6 +134,24 @@ setTimeout(abc,5000)
        var g=document.getElementById('ind3');
        var h=document.getElementById('ind4');
 
+       var I=document.getElementById('Y0');
+       var J=document.getElementById('N0');
+       var K=document.getElementById('Y1');
+       var L=document.getElementById('N1');
+       var M=document.getElementById('Y2');
+       var N=document.getElementById('N2');
+       var O=document.getElementById('Y3');
+       var P=document.getElementById('N3');
+
+       var i=document.getElementById('y0');
+       var j=document.getElementById('n0');
+       var k=document.getElementById('y1');
+       var l=document.getElementById('n1');
+       var m=document.getElementById('y2');
+       var n=document.getElementById('n2');
+       var o=document.getElementById('y3');
+       var p=document.getElementById('n3');
+
           a.style.display = 'none';
           b.style.display = 'none';
           c.style.display = 'block';
@@ -69,6 +161,24 @@ setTimeout(abc,5000)
           f.style.display = 'block';
           g.style.display = 'none';
           h.style.display = 'none';
+
+          i.style.display = 'none';
+          j.style.display = 'block';
+          k.style.display = 'block';
+          l.style.display = 'none';
+          m.style.display = 'none';
+          n.style.display = 'block';
+          o.style.display = 'none';
+          p.style.display = 'block';
+
+          I.style.display = 'none';
+          J.style.display = 'block';
+          K.style.display = 'block';
+          L.style.display = 'none';
+          M.style.display = 'none';
+          N.style.display = 'block';
+          O.style.display = 'none';
+          P.style.display = 'block';
    }
 
     function blogs() {
@@ -82,6 +192,24 @@ setTimeout(abc,5000)
        var g=document.getElementById('ind3');
        var h=document.getElementById('ind4');
 
+       var i=document.getElementById('y0');
+       var j=document.getElementById('n0');
+       var k=document.getElementById('y1');
+       var l=document.getElementById('n1');
+       var m=document.getElementById('y2');
+       var n=document.getElementById('n2');
+       var o=document.getElementById('y3');
+       var p=document.getElementById('n3');
+
+       var I=document.getElementById('Y0');
+       var J=document.getElementById('N0');
+       var K=document.getElementById('Y1');
+       var L=document.getElementById('N1');
+       var M=document.getElementById('Y2');
+       var N=document.getElementById('N2');
+       var O=document.getElementById('Y3');
+       var P=document.getElementById('N3');
+
           a.style.display = 'none';
           b.style.display = 'none';
           c.style.display = 'none';
@@ -91,6 +219,24 @@ setTimeout(abc,5000)
           f.style.display = 'none';
           g.style.display = 'none';
           h.style.display = 'block';
+
+          i.style.display = 'none';
+          j.style.display = 'block';
+          k.style.display = 'none';
+          l.style.display = 'block';
+          m.style.display = 'none';
+          n.style.display = 'block';
+          o.style.display = 'block';
+          p.style.display = 'none';
+
+          I.style.display = 'none';
+          J.style.display = 'block';
+          K.style.display = 'none';
+          L.style.display = 'block';
+          M.style.display = 'none';
+          N.style.display = 'block';
+          O.style.display = 'block';
+          P.style.display = 'none';
    }
 
 
