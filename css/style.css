@@ -193,9 +193,7 @@ padding-right: 2vw;
         width: 70px;
         height: auto !important;
     }
-    .box{
-        width: 200px !important;
-    }
+   
 }
 @media (max-width:760px) {
     .services, #contact{
@@ -224,7 +222,7 @@ padding-right: 2vw;
         padding: 0;
     }
     .abt,#contact,.blogs,.services{
-        padding-left: 1.1rem;
+        padding-left: 5px;
     }
     .indicator{
         width: 35vw !important;
@@ -452,7 +450,7 @@ display: inline-flex;
     width: 75vw;
 }
 .newsletter {
- margin-right: 10px;
+ margin-right: 5px;
 }
 
 
@@ -477,4 +475,7 @@ display: inline-flex;
 
 #N0,#Y1,#Y2,#Y3{
     display: none;  
+  }
+  .end{
+    margin-bottom: 1rem;
   }
