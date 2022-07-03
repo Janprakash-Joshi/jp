@@ -411,7 +411,7 @@ border-radius: 15px;
   display: none; 
 }
 .homecontent{
-    margin-top: 6rem;
+    margin-top: 3rem;
 }
 .menu>ul>li{
     margin: 15px 10px 10px 10px; 
@@ -439,8 +439,11 @@ display: inline-flex;
     z-index: 999;
     display:block !important;
 }
+
 .logo1{
     display: block !important;
+    margin-top: -15px;
+    margin-bottom: -15px;
 } 
 .newsletter>input {
    
