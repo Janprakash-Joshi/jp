@@ -482,3 +482,7 @@ display: inline-flex;
   .end{
     margin-bottom: 1rem;
   }
+
+.sales-market, .write-us, .customer-care{
+    background-color: black;
+  }
