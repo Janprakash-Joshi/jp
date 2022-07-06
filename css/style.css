@@ -19,9 +19,12 @@ html {
    
   }
 body{
-    
+    background: url(../img/psay.png);
+    background-position: left;
+    background-repeat: no-repeat;
 	height: 100%;
     background-color: rgb(0, 0, 0);
+    background-attachment: fixed;
 }
 .loader{
    
@@ -196,6 +199,9 @@ padding-right: 2vw;
    
 }
 @media (max-width:760px) {
+    body{
+        background-position: 75%;
+    }
     .services, #contact{
         margin-left: 30vw !important;
     }
@@ -483,6 +489,6 @@ display: inline-flex;
     margin-bottom: 1rem;
   }
 
-.sales-market, .write-us, .customer-care{
+  .sales-market, .write-us, .customer-care{
     background-color: black;
   }

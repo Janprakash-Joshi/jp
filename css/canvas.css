@@ -38,8 +38,8 @@
     position: absolute;
     -webkit-transform: translateY(-10vh);
             transform: translateY(-10vh);
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
     -webkit-animation-timing-function: linear;
             animation-timing-function: linear;
   }
@@ -50,8 +50,8 @@
     border-radius: 50%;
     mix-blend-mode: screen;
     background-image: radial-gradient(#99ffff, #99ffff 10%, rgba(153, 255, 255, 0) 56%);
-    -webkit-animation: fadein-frames 200ms infinite, scale-frames 2s infinite;
-            animation: fadein-frames 200ms infinite, scale-frames 2s infinite;
+    -webkit-animation: fadein-frames 200ms 1, scale-frames 1s 1;
+            animation: fadein-frames 200ms 1, scale-frames 1s 1;
   }
   
   @-webkit-keyframes fade-frames {
@@ -5841,7 +5841,7 @@
     }
   }
   
-  .circle-container:nth-child(151) .circle {
+  /* .circle-container:nth-child(151) .circle {
     -webkit-animation-delay: 3766ms;
             animation-delay: 3766ms;
   }
@@ -7707,7 +7707,7 @@
     -webkit-animation-delay: 1121ms;
             animation-delay: 1121ms;
   }
-  
+   */
   
   
   @-webkit-keyframes message-frames {
