@@ -113,6 +113,7 @@ padding-right: 2vw;
 
 }
 .top{
+	margin-top: -25px;
     border: 1px solid wheat;
     position: sticky;
     background-color: rgb(39, 39, 39);
