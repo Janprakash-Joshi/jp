@@ -260,7 +260,7 @@ setTimeout(abc,5000)
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => Swal.fire({icon:'success', title:'Thank You.', text:'We have received your message.'}))
+      .then(response => Swal.fire({icon:'success', title:'Thank You.', text:'We have received your message.',showClass: {popup: 'animate__animated animate__fadeInDown'}, hideClass: {popup: 'animate__animated animate__fadeOutUp' }}))
       .catch(error => console.error('Error!', error.message))
       var frm = document.getElementsByName('submit-to-google-sheet')[0];
    // frm.submit(); // Submit
@@ -270,7 +270,7 @@ setTimeout(abc,5000)
   form1.addEventListener('submit', f => {
    f.preventDefault()
    fetch(scriptURL, { method: 'POST', body: new FormData(form1)})
-     .then(response => Swal.fire({icon:'success', title:'Thank You.', text:'Greeting from Janprakash Joshi.'}))
+     .then(response => Swal.fire({icon:'success', title:'Thank You.', text:'Greeting from Janprakash Joshi.',showClass: {popup: 'animate__animated animate__fadeInDown'}, hideClass: {popup: 'animate__animated animate__fadeOutUp' }}))
      .catch(error => console.error('Error!', error.message))
      var frm = document.getElementsByName('submit-to-google-sheet1')[0];
   // frm.submit(); // Submit
@@ -280,7 +280,7 @@ setTimeout(abc,5000)
  form2.addEventListener('submit', g => {
    g.preventDefault()
    fetch(scriptURL, { method: 'POST', body: new FormData(form2)})
-     .then(response => Swal.fire({icon:'success', title:'Thank You.', text:'We have received your message.'}))
+     .then(response => Swal.fire({icon:'success', title:'Thank You.', text:'We have received your message.',showClass: {popup: 'animate__animated animate__fadeInDown'}, hideClass: {popup: 'animate__animated animate__fadeOutUp' }}))
      .catch(error => console.error('Error!', error.message))
      var frm = document.getElementsByName('submit-to-google-sheet2')[0];
   // frm.submit(); // Submit
