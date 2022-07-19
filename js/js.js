@@ -4,62 +4,74 @@ setTimeout(abc,5000)
     document.getElementById('flex').style.display='flex';
   }
  function service() {
-       var a = document.getElementById('services');
-       var b = document.getElementById('home');
-       var c = document.getElementById('contact');
-       var d = document.getElementById('blogs'); 
+   Swal.fire({
+      icon: 'info',
+      title: 'We are busy !',
+      text: 'Can not provide services right now please come back later.',
+      showClass: {
+        popup: 'animate__animated animate__fadeInDown'
+      },
+      hideClass: {
+        popup: 'animate__animated animate__fadeOutUp'
+      }
+    })
+   
+      //  var a = document.getElementById('services');
+      //  var b = document.getElementById('home');
+      //  var c = document.getElementById('contact');
+      //  var d = document.getElementById('blogs'); 
 
-       var e=document.getElementById('ind1');  
-       var f=document.getElementById('ind2');
-       var g=document.getElementById('ind3');
-       var h=document.getElementById('ind4');  
+      //  var e=document.getElementById('ind1');  
+      //  var f=document.getElementById('ind2');
+      //  var g=document.getElementById('ind3');
+      //  var h=document.getElementById('ind4');  
 
-       var i=document.getElementById('y0');
-       var j=document.getElementById('n0');
-       var k=document.getElementById('y1');
-       var l=document.getElementById('n1');
-       var m=document.getElementById('y2');
-       var n=document.getElementById('n2');
-       var o=document.getElementById('y3');
-       var p=document.getElementById('n3');
+      //  var i=document.getElementById('y0');
+      //  var j=document.getElementById('n0');
+      //  var k=document.getElementById('y1');
+      //  var l=document.getElementById('n1');
+      //  var m=document.getElementById('y2');
+      //  var n=document.getElementById('n2');
+      //  var o=document.getElementById('y3');
+      //  var p=document.getElementById('n3');
 
-       var I=document.getElementById('Y0');
-       var J=document.getElementById('N0');
-       var K=document.getElementById('Y1');
-       var L=document.getElementById('N1');
-       var M=document.getElementById('Y2');
-       var N=document.getElementById('N2');
-       var O=document.getElementById('Y3');
-       var P=document.getElementById('N3');
+      //  var I=document.getElementById('Y0');
+      //  var J=document.getElementById('N0');
+      //  var K=document.getElementById('Y1');
+      //  var L=document.getElementById('N1');
+      //  var M=document.getElementById('Y2');
+      //  var N=document.getElementById('N2');
+      //  var O=document.getElementById('Y3');
+      //  var P=document.getElementById('N3');
 
-          a.style.display = 'block';
-          b.style.display = 'none';
-          c.style.display = 'none';
-          d.style.display = 'none';
+      //     a.style.display = 'block';
+      //     b.style.display = 'none';
+      //     c.style.display = 'none';
+      //     d.style.display = 'none';
 
-          e.style.display = 'none';
-          f.style.display = 'none';
-          g.style.display = 'block';
-          h.style.display = 'none';
+      //     e.style.display = 'none';
+      //     f.style.display = 'none';
+      //     g.style.display = 'block';
+      //     h.style.display = 'none';
 
-          i.style.display = 'none';
-          j.style.display = 'block';
-          k.style.display = 'none';
-          l.style.display = 'block';
-          m.style.display = 'block';
-          n.style.display = 'none';
-          o.style.display = 'none';
-          p.style.display = 'block';
+      //     i.style.display = 'none';
+      //     j.style.display = 'block';
+      //     k.style.display = 'none';
+      //     l.style.display = 'block';
+      //     m.style.display = 'block';
+      //     n.style.display = 'none';
+      //     o.style.display = 'none';
+      //     p.style.display = 'block';
 
 
-          I.style.display = 'none';
-          J.style.display = 'block';
-          K.style.display = 'none';
-          L.style.display = 'block';
-          M.style.display = 'block';
-          N.style.display = 'none';
-          O.style.display = 'none';
-          P.style.display = 'block';
+      //     I.style.display = 'none';
+      //     J.style.display = 'block';
+      //     K.style.display = 'none';
+      //     L.style.display = 'block';
+      //     M.style.display = 'block';
+      //     N.style.display = 'none';
+      //     O.style.display = 'none';
+      //     P.style.display = 'block';
    }
 
    function home() {
@@ -248,7 +260,7 @@ setTimeout(abc,5000)
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => alert("Thank You. We have received your message."))
+      .then(response => Swal.fire({icon:'success', title:'Thank You.', text:'We have received your message.'}))
       .catch(error => console.error('Error!', error.message))
       var frm = document.getElementsByName('submit-to-google-sheet')[0];
    // frm.submit(); // Submit
@@ -258,7 +270,7 @@ setTimeout(abc,5000)
   form1.addEventListener('submit', f => {
    f.preventDefault()
    fetch(scriptURL, { method: 'POST', body: new FormData(form1)})
-     .then(response => alert("Thank You. Greeting from Janprakash Joshi"))
+     .then(response => Swal.fire({icon:'success', title:'Thank You.', text:'Greeting from Janprakash Joshi.'}))
      .catch(error => console.error('Error!', error.message))
      var frm = document.getElementsByName('submit-to-google-sheet1')[0];
   // frm.submit(); // Submit
@@ -268,7 +280,7 @@ setTimeout(abc,5000)
  form2.addEventListener('submit', g => {
    g.preventDefault()
    fetch(scriptURL, { method: 'POST', body: new FormData(form2)})
-     .then(response => alert("Thank You. We have received your message."))
+     .then(response => Swal.fire({icon:'success', title:'Thank You.', text:'We have received your message.'}))
      .catch(error => console.error('Error!', error.message))
      var frm = document.getElementsByName('submit-to-google-sheet2')[0];
   // frm.submit(); // Submit
