@@ -423,6 +423,7 @@ border-radius: 15px;
 .menu>ul>li{
     margin: 15px 10px 10px 10px; 
 display: inline-flex;
+	justify-content: center;
 }
 .fixed{
     display: none;
