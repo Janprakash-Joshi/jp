@@ -6,7 +6,7 @@ setTimeout(abc,5000)
  function service() {
    Swal.fire({
       icon: 'info',
-      title: 'We are busy !',
+      title: 'We are sorry !',
       text: 'Can not provide services right now please come back later.',
       showClass: {
         popup: 'animate__animated animate__fadeInDown'
