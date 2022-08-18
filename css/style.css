@@ -40,7 +40,7 @@ body{
     display: none;
 }
 .glow-on-hover {
-    margin-top: 2.5rem;
+    margin-top: 2.2rem;
     padding: 3px;
     width: 140px;
     height: 50px;
@@ -122,7 +122,7 @@ padding-right: 2vw;
  
 }
 .top-img{
-    padding: 10px;
+    padding: 5px 10px;
 }
 .menu,ul,li{
     margin:10px;
@@ -135,7 +135,7 @@ padding-right: 2vw;
 }
 .menu{
     background-image: url(../img/pattern.png);
-    margin-top: 1.5rem;
+    margin-top: -20px;
 }
 .oranged{
     text-shadow: none;
