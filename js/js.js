@@ -1,9 +1,10 @@
-setTimeout(abc,5000)
+setTimeout(abc,3000)
     function abc() {
     document.getElementById('loader').style.display='none';
     document.getElementById('flex').style.display='flex';
   }
  function service() {
+  window.scrollTo(top)
    Swal.fire({
       icon: 'info',
       title: 'We are sorry !',
@@ -75,6 +76,7 @@ setTimeout(abc,5000)
    }
 
    function home() {
+    window.scrollTo(top)
        var a = document.getElementById('services');
        var b = document.getElementById('home');
        var c = document.getElementById('contact');
@@ -136,6 +138,7 @@ setTimeout(abc,5000)
    }
 
    function contact() {
+    window.scrollTo(top)
        var a = document.getElementById('services');
        var b = document.getElementById('home');
        var c = document.getElementById('contact');
@@ -194,6 +197,7 @@ setTimeout(abc,5000)
    }
 
     function blogs() {
+      window.scrollTo(top)
        var a = document.getElementById('services');
        var b = document.getElementById('home');
        var c = document.getElementById('contact');
