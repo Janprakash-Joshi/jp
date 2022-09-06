@@ -497,6 +497,7 @@ justify-content: center;
 
 .google{
     position: absolute;
+	z-index: -1;
 }
 .google h1{
     color: transparent;
