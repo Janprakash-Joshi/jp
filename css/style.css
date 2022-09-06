@@ -494,3 +494,16 @@ justify-content: center;
   .sales-market, .write-us, .customer-care{
     background-color: black;
   }
+
+.google{
+    position: absolute;
+}
+.google h1{
+    color: transparent;
+}
+.google h2{
+    color: transparent;
+}
+.google h3{
+    color: transparent;
+}
