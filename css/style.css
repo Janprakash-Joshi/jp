@@ -172,7 +172,7 @@ padding-right: 2vw;
   
   
   .profile-photo img {
-    border-radius: 15%;
+    border-radius: 35%;
     width: 150px;
     
     object-fit: cover;
