@@ -107,3 +107,6 @@ a{
     margin-top: -1rem;
 }
 
+.social{
+    display: flex;
+}
