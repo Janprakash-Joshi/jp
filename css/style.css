@@ -172,6 +172,8 @@ padding-right: 2vw;
   
   
   .profile-photo img {
+    margin-top: 5px;
+    border-top: 5px solid white;
     border-radius: 35%;
     width: 150px;
     
@@ -522,5 +524,25 @@ justify-content: center;
 @media screen and (max-width: 880px) and (min-width: 760px) {
     .homecontent{
      margin-left: 5rem;
+    }
+}
+
+.gallery{
+    border-top: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery1{
+    display: none;
+}
+.gallery>img{
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+}
+
+@media screen and (max-width:735px) {
+    .gallery1{
+        display: flex;
     }
 }
