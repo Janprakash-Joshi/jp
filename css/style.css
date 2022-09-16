@@ -223,7 +223,7 @@ padding-right: 2vw;
         height: 30px;
     }
     .profile-photo{
-        margin-top: -10px;
+        margin-top: -40px;
     }
     .menu,ul,li{
         font-size: 1rem;
@@ -288,7 +288,8 @@ h1,h2,h3,h4,h5,h6,h7,p,b,label{
     padding: 2rem;
     display: none;
    margin-left: 30vw;
-    width: 70%;
+    width: 65%;
+    height: 100vh;
 }
 .newsletter{
     align-items: center;
@@ -421,6 +422,11 @@ border-radius: 15px;
     border: none;
     height: auto;
     width: 100%;
+    bottom: 10px;
+    background-color:#000000e0;
+}
+.menu{
+   background-image: none;
 }
 
 .logo h1,h6{
@@ -497,7 +503,8 @@ justify-content: center;
     display: none;  
   }
   .end{
-    margin-bottom: 1rem;
+    background-color: #282a2d;
+    padding-bottom: 1rem;
   }
 
   .sales-market, .write-us, .customer-care{
@@ -545,4 +552,14 @@ justify-content: center;
     .gallery1{
         display: flex;
     }
+    .end{
+        margin-left: -5px;
+        padding-bottom: 75px !important;
+    }
+}
+@media screen and (max-width:1100px) and  (min-width:760px) {
+    
+.menu svg{
+    margin-top: 10px;
+}
 }
