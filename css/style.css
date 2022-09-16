@@ -222,9 +222,7 @@ padding-right: 2vw;
        
         height: 30px;
     }
-    .profile-photo{
-        margin-top: -40px;
-    }
+    
     .menu,ul,li{
         font-size: 1rem;
         margin-left: 3px;
@@ -432,9 +430,7 @@ border-radius: 15px;
 .logo h1,h6{
   display: none; 
 }
-.homecontent{
-    margin-top: 3rem;
-}
+
 .menu>ul>li{
     margin: 15px 10px 10px 10px; 
 display: inline-flex;
