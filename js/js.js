@@ -2,7 +2,10 @@ setTimeout(abc,3000)
     function abc() {
     document.getElementById('loader').style.display='none';
     document.getElementById('flex').style.display='flex';
+   
   }
+   home() 
+   
  function service() {
   window.scrollTo(top)
    Swal.fire({
