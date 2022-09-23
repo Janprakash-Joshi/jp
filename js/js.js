@@ -1,7 +1,9 @@
 setTimeout(abc,3000)
     function abc() {
     document.getElementById('loader').style.display='none';
+    document.getElementById('load').style.display='none';
     document.getElementById('flex').style.display='flex';
+    
    
   }
    home() 
@@ -256,6 +258,10 @@ setTimeout(abc,3000)
           N.style.display = 'block';
           O.style.display = 'block';
           P.style.display = 'none';
+   }
+
+   function scrolling(){
+   window.scrollTo(0,400);
    }
 
 
