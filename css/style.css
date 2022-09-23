@@ -19,12 +19,15 @@ html {
    
   }
 body{
-    background: url(../img/giphy\ \(1\).gi);
-    background-position: left;
+  
+   height: 100%;
+   background-attachment: fixed;
     background-repeat: no-repeat;
-	height: 100%;
-    background-color: rgb(0, 0, 0);
-    background-attachment: fixed;
+    background-size: cover;
+    background-color:black;
+
+    background-position: center;
+    background-image: url(/img/giphy.gif);
 }
     
 .loader{
@@ -36,6 +39,11 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.load{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
 }
 .flex{
     display: none;
@@ -105,7 +113,7 @@ body{
 }
 
 .abt{
-padding-right: 2vw;
+
     margin-left: 25vw;
     max-width: 70%;
  background-color: transparent;
@@ -191,9 +199,7 @@ padding-right: 2vw;
   }
   }
 
-.abt-1{
-    padding: 5px;
-}
+
 .abt-1>center>h3{
     padding: 0 3rem 0 3rem;
 }
@@ -287,7 +293,7 @@ h1,h2,h3,h4,h5,h6,h7,p,b,label{
     display: none;
    margin-left: 30vw;
     width: 65%;
-    height: 100vh;
+  
 }
 .newsletter{
     align-items: center;
@@ -295,7 +301,7 @@ h1,h2,h3,h4,h5,h6,h7,p,b,label{
     text-align: center;
     background-color: #111;
     margin: 0,1rem,0,1rem;
-    margin-top: -15px;
+   padding-top: 0.5rem;
     border-radius: 10px;
 }
 .newsletter>input{
@@ -317,7 +323,9 @@ border-radius: 15px;
 }
 
 .homecontent{
-    max-width: 1200px;
+ 
+    background-color:#000000f0;
+   
 }
 .top-img{
    animation: logo 5s;
@@ -499,8 +507,10 @@ justify-content: center;
     display: none;  
   }
   .end{
-    background-color: #282a2d;
-    padding-bottom: 1rem;
+    padding: 4rem 0 2rem;
+    text-align: center;
+  
+    background-image: linear-gradient(#000000, #08321d,black);
   }
 
   .sales-market, .write-us, .customer-care{
@@ -558,4 +568,92 @@ justify-content: center;
 .menu svg{
     margin-top: 10px;
 }
+}
+.intro h1  {
+    font-weight: bold;
+}
+.intro h3  {
+    font-weight: bold;
+}
+.intro p{
+color: hsla(0,0%,100%,.6);
+}
+
+.cv,.talk{
+    background: transparent;
+    border: 1px solid #b55210;
+    border-radius: 0.5rem;
+    color: #b55210;
+    
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.9rem 1.4rem;
+    transition: all .4s ease;
+}
+.cv:hover{
+    background-color: #b55210 ;
+    color: #1f1f38;
+}
+.talk{
+    background-color: #b55210 ;
+    color: #1f1f38;
+}
+.cvtalkbtn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profilepic{
+    background-image: linear-gradient(#b55210, #2c2c6c);
+    border-radius: 100% 100% 0 0;
+    padding: 2.5rem;
+    margin-left: 1rem;
+    box-shadow: 0 15px 15px #ffffff36;
+}
+.profilepic img{
+    border-radius: 50%;
+    height: 20rem;
+    object-fit: cover;
+    width: 20rem;
+    background: #000000b3;
+}
+.profile{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    
+   
+}
+.profilesocial{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 5px;
+}
+.scrolldown{
+    color: #b55210;
+   
+}
+.scrolldown{
+    transform: rotate(90deg);
+    white-space: nowrap;
+    animation: scroll 3s infinite;
+    cursor: pointer;
+   
+}
+.intro{
+    padding: 1rem 1px 1rem 1px;
+}
+@keyframes scroll {
+    50%{
+        color: white;
+        margin-top: 5vw;
+        
+    }
+}
+@media screen and (max-width:975px) and  (min-width:881px) {
+    .abt-1{
+        margin-left: 2rem;
+    }
 }
