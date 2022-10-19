@@ -304,7 +304,7 @@ setTimeout(abc,3000)
   function sms(){
     let timerInterval
 Swal.fire({
-  title: 'Please Subscribe Our Newsletter!',
+  title: 'Please Subscribe Our Newsletter With Your Valid Email Address We Will Contact You As Soon As Possible!',
  // html: 'I will close in <b></b> milliseconds.',
   timer: 4000,
   timerProgressBar: true,
