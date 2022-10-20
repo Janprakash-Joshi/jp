@@ -434,6 +434,9 @@ border-radius: 15px;
 }
 
 @media (max-width:760px) {
+ .home{
+    background-color: #000000e9;
+ }
 .top{
     position: fixed;
     border: none;
