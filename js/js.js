@@ -1,12 +1,44 @@
-setTimeout(abc,3000)
+setTimeout(abc,2000)
     function abc() {
     document.getElementById('loader').style.display='none';
     document.getElementById('load').style.display='none';
     document.getElementById('flex').style.display='flex';
-    
+    document.getElementById('flex').style.opacity='0.2';
    
   }
    home() 
+   setTimeout(bcd,3000)
+   function bcd(){
+    document.getElementById('flex').style.opacity='0.3';
+   }
+   setTimeout(bcd0,4000)
+   function bcd0(){
+    document.getElementById('flex').style.opacity='0.4';
+   }
+   setTimeout(bcd0,5000)
+   function bcd0(){
+    document.getElementById('flex').style.opacity='0.5';
+   }
+   setTimeout(bcd1,6000)
+   function bcd1(){
+    document.getElementById('flex').style.opacity='0.6';
+   }
+   setTimeout(bcd2,7000)
+   function bcd2(){
+    document.getElementById('flex').style.opacity='0.7';
+   }
+   setTimeout(bcd3,8000)
+   function bcd3(){
+    document.getElementById('flex').style.opacity='0.8';
+   }
+   setTimeout(bcd4,9000)
+   function bcd4(){
+    document.getElementById('flex').style.opacity='0.9';
+   }
+   setTimeout(bcd5,10000)
+   function bcd5(){
+    document.getElementById('flex').style.opacity='1';
+   }
    
  function service() {
   window.scrollTo(top)
