@@ -27,7 +27,7 @@ body{
     background-color:black;
    
     background-position: center;
-    background-image: url(/img/giphy.gif);
+    background-image: url(/img/bg.gif);
 }
     
 .loader{
@@ -44,6 +44,7 @@ body{
     width: 100%;
     height: 100vh;
     background-color: #000;
+   
 }
 .flex{
     display: none;
