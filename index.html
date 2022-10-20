@@ -58,7 +58,7 @@
 
   gtag('config', 'G-6SD5LJDJZY');
 </script>
-<body >
+<body id="body">
   <!-- canvas -->
   <!-- <div class="container">
      
@@ -463,7 +463,7 @@
    </div> -->
 
 
-   <div class="flex" id="flex">
+   <div class="flex home" id="flex">
    
        <div class="fixed">
        <div class="top">
@@ -603,7 +603,7 @@
           
       <p style="color: hsla(0,0%,100%,.6);">Get To Know</p>
       <h3 style="color: #b55210; font-weight: bold;"> About Me</h3>
-      <h3 style="color: #d4f21b; font-family: 'Cookie', cursive; text-align: left;font-size: 2rem;">Student of bachelore level and I am also a Junior Web Developer. I am currently studying at Nepal College Of Information Technology. I enjoy using my skills to contribute to the exciting technological advances that happen every day. Initially I'd like to let you know guys how glad I am to see you here and it's sweet of you to come over !</h3>
+      <h3 style="color: #d4f21b; font-family: 'Cookie', cursive; text-align: left;font-size: 2.5rem;">Student of bachelore level and I am also a Junior Web Developer. I am currently studying at Nepal College Of Information Technology. I enjoy using my skills to contribute to the exciting technological advances that happen every day. Initially I'd like to let you know guys how glad I am to see you here and it's sweet of you to come over !</h3>
             <ul class="info-list">
                 <!-- About info -->
                
@@ -653,14 +653,56 @@
           <input type="text" placeholder="Your Email" name="Email" >
           <button class="btn btn1" type="submit" onclick="submitForm()"><h7>Subscribe</h7></button>
         </div></form> -->
-        <div class="gallery gallery1">
+
+         <!-- gallery -->
+         <br>
+        <center>
+          <button   id="gallerymore" class="btn btn-primary gallerybtn" type="button" onclick="gallerybtn()">
+            Show Gallery <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+              <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+            </svg>
+          </button></center>
+          <center>
+            <button id="galleryless" class="btn btn-primary gallerybtn" type="button" onclick="gallerybtn()">
+             Hide Gallery <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+              <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+            </svg>
+            </button></center>
+        
+        <div class="gallery gallery1" id="gallery">
           <h3 style="color: #b55210; font-weight: bold;text-align: center; margin-top: 2rem;"> Gallery</h3>
           <img src="./img/top.png" alt="Janprakash Joshi" class="img-fluid" style=" border-radius: 15%;">
           <h1 style="color: yellowgreen; text-align: center;">Janprakash Joshi</h1>
-          <img src="./img/Janprakash Joshi.png" alt="Janprakash Joshi" class="img-fluid" style=" border-radius: 15%; align-items: center;">
-          <h1 style="color: yellowgreen; text-align: center;">Janprakash Joshi</h1>
+          
+         
+          <p>
+           
+            <button onclick="more()" id="more" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              More <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+              </svg>
+            </button>
+          </p>
+          <center>
+            <button onclick="less()" id="less" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              Less <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+              </svg>
+            </button></center>
+          <div class="collapse" id="collapseExample">
+            <div class=" gallerymore noborder">
+              <img src="./img/Janprakash Joshi.png" alt="Janprakash Joshi" class="img-fluid" style=" border-radius: 15%; align-items: center;">
+              <!-- <h1 style="color: yellowgreen; text-align: center;">Janprakash Joshi</h1> -->
+              <img src="./img/plustwotransparent.png" alt="Janprakash Joshi" class="img-fluid" style=" border-radius: 15%; align-items: center;">
+              <!-- <h1 style="color: yellowgreen; text-align: center;">Janprakash Joshi</h1> -->
+            </div>
+            
+          </div>
        </div>
-         <div class=" border-top end">
+<!-- gallery -->
+
+
+         <div class=" border-top end" >
           
           <div style="color: white;"><center style="font-size: 15px;">
             Copyright <span class="copyright">&copy;</span>Janprakash Joshi.All Rights Reserved.
@@ -884,18 +926,42 @@
               </form>
           
         </div>
-          
-        <h3 style="color: #b55210; font-weight: bold;text-align: center; margin-top: 5rem;"> Gallery</h3>
+          <!-- gallery -->
+        
+        
         <div class="gallery">
+          <h3 style="color: #b55210; font-weight: bold;text-align: center; margin-top: 2rem;"> Gallery</h3>
+          <img src="./img/top.png" alt="Janprakash Joshi" class="img-fluid" style=" border-radius: 15%;">
+          <h1 style="color: yellowgreen; text-align: center;">Janprakash Joshi</h1>
           
-          <img src="./img/top.png" alt="Janprakash Joshi" class="img-fluid" style=" border-radius: 15%; align-items: center;">
-           <h1 style="color: yellowgreen; text-align: center;">Janprakash Joshi</h1>
-           <img src="./img/Janprakash Joshi.png" alt="Janprakash Joshi" class="img-fluid" style=" border-radius: 15%;">
-           <h1 style="color: yellowgreen; text-align: center;">Janprakash Joshi</h1>
-           
-        </div>
-
-        <div class=" border-top end">
+         
+          <p>
+            <a href="#less">
+            <button onclick="more1()" id="more1" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              More <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+              </svg>
+            </button></a>
+          </p>
+          <center>
+            <button onclick="less1()" id="less1" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              Less <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+              </svg>
+            </button></center>
+          
+          <div class="collapse" id="collapseExample">
+            <div class=" gallerymore noborder">
+              <img src="./img/Janprakash Joshi.png" alt="Janprakash Joshi" class="img-fluid" style=" border-radius: 15%; align-items: center;">
+              <!-- <h1 style="color: yellowgreen; text-align: center;">Janprakash Joshi</h1> -->
+              <img src="./img/plustwotransparent.png" alt="Janprakash Joshi" class="img-fluid" style=" border-radius: 15%; align-items: center;">
+              <!-- <h1 style="color: yellowgreen; text-align: center;">Janprakash Joshi</h1> -->
+            </div>
+            
+          </div>
+       </div>
+ <!-- gallery -->
+        <div class=" border-top end blogend">
           
           <div style="color: white;"><center style="font-size: 15px;">
             Copyright <span class="copyright">&copy;</span>Janprakash Joshi.All Rights Reserved.
