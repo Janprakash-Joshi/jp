@@ -82,6 +82,7 @@ setTimeout(abc,3000)
 
    function home() {
     window.scrollTo(top)
+    document.getElementById('flex').style.width='fit-content';
        var a = document.getElementById('services');
        var b = document.getElementById('home');
        var c = document.getElementById('contact');
@@ -203,6 +204,7 @@ setTimeout(abc,3000)
 
     function blogs() {
       window.scrollTo(top)
+      document.getElementById('flex').style.width='100%';
        var a = document.getElementById('services');
        var b = document.getElementById('home');
        var c = document.getElementById('contact');
@@ -263,6 +265,56 @@ setTimeout(abc,3000)
    function scrolling(){
    window.scrollTo(0,400);
    }
+   let counter=0;
+   function gallerybtn(){
+    
+    if (counter==0){
+      document.getElementById('gallery').style.display='flex';
+      window.scrollTo(1000,1300);
+      document.getElementById('galleryless').style.display='block';
+      document.getElementById('gallerymore').style.display='none';
+      counter=1;
+    }
+     else if(counter==1){
+      document.getElementById('gallery').style.display='none';
+      document.getElementById('galleryless').style.display='none';
+      document.getElementById('gallerymore').style.display='block';
+      counter=0;
+    }
+    
+   }
+
+   
+
+  function more(){
+    document.getElementById('less').style.display='block';
+    document.getElementById('more').style.display='none';
+    window.scrollTo(0,1600);
+  }
+  function less(){
+    document.getElementById('more').style.display='block';
+    document.getElementById('less').style.display='none';
+  }
+
+  function more1(){
+    document.getElementById('less1').style.display='block';
+    document.getElementById('more1').style.display='none';
+    window.scrollTo(0,1600);
+  }
+  function less1(){
+    document.getElementById('more1').style.display='block';
+    document.getElementById('less1').style.display='none';
+  }
+
+
+
+
+
+
+
+
+
+
 
 
    const scriptURL = 'https://script.google.com/macros/s/AKfycbwnSxUOXkD7a_janabPi9oxfHohfmPYUUKdHszAW65wlLuy_UcPL6t4FPg4yewDMQfwxw/exec'
@@ -304,7 +356,7 @@ setTimeout(abc,3000)
   function sms(){
     let timerInterval
 Swal.fire({
-  title: 'Please Subscribe Our Newsletter With Your Valid Email Address We Will Contact You As Soon As Possible!',
+  title: 'Please subscribe our news letter with your valid E-mail address.',
  // html: 'I will close in <b></b> milliseconds.',
   timer: 4000,
   timerProgressBar: true,
