@@ -25,7 +25,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color:black;
-
+   
     background-position: center;
     background-image: url(/img/giphy.gif);
 }
@@ -201,7 +201,7 @@ body{
 
 
 .abt-1>center>h3{
-    padding: 0 3rem 0 3rem;
+    padding: 0 1.5rem 0 2rem;
 }
 
 @media (max-width:530px) {
@@ -221,9 +221,7 @@ body{
     .services, #contact{
         margin-left: 30vw !important;
     }
-    .abt-1>center>h3{
-        padding: 1px;
-    }
+    
     .glow-on-hover{
        
         height: 30px;
@@ -292,7 +290,7 @@ h1,h2,h3,h4,h5,h6,h7,p,b,label{
      padding-top: 2rem;
     display: none;
    margin-left: 30vw;
-    width: 65%;
+   
   
 }
 .newsletter{
@@ -321,10 +319,15 @@ border-radius: 15px;
     background-color: transparent;
    
 }
+.home{
+    
+    background-color:#000000f0;
+    width: fit-content;
 
+}
 .homecontent{
     min-height: 100vh;
-    background-color:#000000f0;
+   
    
 }
 @media (min-width:1520px) {
@@ -558,10 +561,11 @@ justify-content: center;
     margin-top: 5rem;
 
 }
-.gallery>img{
+.gallery img{
     border-bottom: 5px solid white;
     border-top: 5px solid white;
-    max-width: 50%;
+    max-width: 300px;
+    margin: 15px;
 }
 
 @media screen and (max-width:735px) {
@@ -572,6 +576,10 @@ justify-content: center;
     .end{
         margin-left: -5px;
         padding-bottom: 75px !important;
+    }
+
+    .gallerybtn{
+        display: none;
     }
 }
 @media screen and (max-width:1100px) and  (min-width:760px) {
@@ -667,4 +675,28 @@ color: hsla(0,0%,100%,.6);
     .abt-1{
         margin-left: 2rem;
     }
+}
+
+.noborder{
+    border: none;
+}
+.gallerymore{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blogend{
+  margin-left: 10px;
+}
+#less{
+    display: none;
+}
+
+#less1{
+    display: none;
+}
+
+#galleryless{
+    display: none;
 }
