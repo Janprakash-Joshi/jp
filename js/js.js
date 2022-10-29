@@ -1,45 +1,8 @@
-setTimeout(abc,2000)
+setTimeout(abc,3000)
     function abc() {
     document.getElementById('loader').style.display='none';
-    document.getElementById('load').style.display='none';
     document.getElementById('flex').style.display='flex';
-    document.getElementById('flex').style.opacity='0.2';
-   
   }
-   home() 
-   setTimeout(bcd,3000)
-   function bcd(){
-    document.getElementById('flex').style.opacity='0.3';
-   }
-   setTimeout(bcd0,4000)
-   function bcd0(){
-    document.getElementById('flex').style.opacity='0.4';
-   }
-   setTimeout(bcd0,5000)
-   function bcd0(){
-    document.getElementById('flex').style.opacity='0.5';
-   }
-   setTimeout(bcd1,6000)
-   function bcd1(){
-    document.getElementById('flex').style.opacity='0.6';
-   }
-   setTimeout(bcd2,7000)
-   function bcd2(){
-    document.getElementById('flex').style.opacity='0.7';
-   }
-   setTimeout(bcd3,8000)
-   function bcd3(){
-    document.getElementById('flex').style.opacity='0.8';
-   }
-   setTimeout(bcd4,9000)
-   function bcd4(){
-    document.getElementById('flex').style.opacity='0.9';
-   }
-   setTimeout(bcd5,10000)
-   function bcd5(){
-    document.getElementById('flex').style.opacity='1';
-   }
-   
  function service() {
   window.scrollTo(top)
    Swal.fire({
@@ -114,7 +77,6 @@ setTimeout(abc,2000)
 
    function home() {
     window.scrollTo(top)
-    document.getElementById('flex').style.width='fit-content';
        var a = document.getElementById('services');
        var b = document.getElementById('home');
        var c = document.getElementById('contact');
@@ -236,7 +198,6 @@ setTimeout(abc,2000)
 
     function blogs() {
       window.scrollTo(top)
-      document.getElementById('flex').style.width='100%';
        var a = document.getElementById('services');
        var b = document.getElementById('home');
        var c = document.getElementById('contact');
@@ -294,60 +255,6 @@ setTimeout(abc,2000)
           P.style.display = 'none';
    }
 
-   function scrolling(){
-   window.scrollTo(0,400);
-   }
-   let counter=0;
-   function gallerybtn(){
-    
-    if (counter==0){
-      document.getElementById('gallery').style.display='flex';
-      window.scrollTo(1000,1300);
-      document.getElementById('galleryless').style.display='block';
-      document.getElementById('gallerymore').style.display='none';
-      counter=1;
-    }
-     else if(counter==1){
-      document.getElementById('gallery').style.display='none';
-      document.getElementById('galleryless').style.display='none';
-      document.getElementById('gallerymore').style.display='block';
-      counter=0;
-    }
-    
-   }
-
-   
-
-  function more(){
-    document.getElementById('less').style.display='block';
-    document.getElementById('more').style.display='none';
-    window.scrollTo(0,1600);
-  }
-  function less(){
-    document.getElementById('more').style.display='block';
-    document.getElementById('less').style.display='none';
-  }
-
-  function more1(){
-    document.getElementById('less1').style.display='block';
-    document.getElementById('more1').style.display='none';
-    window.scrollTo(0,1600);
-  }
-  function less1(){
-    document.getElementById('more1').style.display='block';
-    document.getElementById('less1').style.display='none';
-  }
-
-
-
-
-
-
-
-
-
-
-
 
    const scriptURL = 'https://script.google.com/macros/s/AKfycbwnSxUOXkD7a_janabPi9oxfHohfmPYUUKdHszAW65wlLuy_UcPL6t4FPg4yewDMQfwxw/exec'
   const form = document.forms['submit-to-google-sheet']
@@ -385,30 +292,7 @@ setTimeout(abc,2000)
  })
   
 
-  function sms(){
-    let timerInterval
-Swal.fire({
-  title: 'Please subscribe our news letter with your valid E-mail address.',
- // html: 'I will close in <b></b> milliseconds.',
-  timer: 4000,
-  timerProgressBar: true,
-  didOpen: () => {
-    Swal.showLoading()
-    const b = Swal.getHtmlContainer().querySelector('b')
-    timerInterval = setInterval(() => {
-      b.textContent = Swal.getTimerLeft()
-    }, 100)
-  },
-  willClose: () => {
-    clearInterval(timerInterval)
-  }
-}).then((result) => {
-  /* Read more about handling dismissals below */
-  if (result.dismiss === Swal.DismissReason.timer) {
-    console.log('I was closed by the timer')
-  }
-})
-  }
+  
 
 //   function submitForm() {
 //    // Get the first form with the name
