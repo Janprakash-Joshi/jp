@@ -13,20 +13,20 @@ setTimeout(abc,4000)
    }
    setTimeout(bcd0,6000)
    function bcd0(){
-    document.getElementById('flex').style.opacity='0.6';
+    document.getElementById('flex').style.opacity='0.7';
    }
    setTimeout(bcd0,8000)
    function bcd0(){
-    document.getElementById('flex').style.opacity='0.8';
+    document.getElementById('flex').style.opacity='1';
    }
-   setTimeout(bcd1,9000)
-   function bcd1(){
-    document.getElementById('flex').style.opacity='0.9';
-   }
-   setTimeout(bcd2,10000)
-   function bcd2(){
-    document.getElementById('flex').style.opacity='1'
-   }
+  //  setTimeout(bcd1,9000)
+  //  function bcd1(){
+  //   document.getElementById('flex').style.opacity='0.9';
+  //  }
+  //  setTimeout(bcd2,10000)
+  //  function bcd2(){
+  //   document.getElementById('flex').style.opacity='1'
+  //  }
   //  setTimeout(bcd3,8000)
   //  function bcd3(){
   //   document.getElementById('flex').style.opacity='0.9';
