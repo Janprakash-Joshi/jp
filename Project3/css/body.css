@@ -1,0 +1,380 @@
+.reserv{
+
+   padding: 2rem;
+    background-color: #333;
+    margin: -24px 5px 0 30px;
+}
+input{
+    padding: 10px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 0;
+    box-shadow: 0 0 0 transparent inset;
+    background-color: transparent;
+    width: 100%;
+    vertical-align: baseline;
+    font-size: 100%;
+    margin-bottom: 1.5rem;
+}
+textarea{
+    width: 100%;
+    height: 8rem;
+    border: 1px solid white;
+    background-color: #333;
+}
+
+.btn1{
+    margin-top: 1rem;
+    justify-content: center;
+    display: flex;
+    max-width: 15rem;
+}
+.chef{
+    margin: 1rem 0 0 40rem;
+}
+.abt-chef{
+    margin-right: 4rem;
+    display: flex;
+}
+
+@media(max-width:768px){
+    .abt-chef{
+        display: block;
+    }
+}
+.row {
+    --bs-gutter-x: 0;}
+
+.menu{
+    background-color: #ddd;
+    padding: 4rem;
+     width: 100%;
+    margin-top: -2rem;
+}
+.food-item ul li{
+    color: gray;
+   float: left;
+    font-weight: bold;
+   
+    margin-right: 100px;
+    cursor: pointer;
+    font-size: large;
+
+}
+
+.food-items{
+   
+    border-top: 1px solid gray;
+    display: flex;
+   padding: 1rem;
+}
+p,b{
+    color: black;
+}
+
+.food-img{
+   
+    margin-right: 1rem;
+}
+.food-img img{
+    border-radius: 10px;
+}
+.food-price{
+   
+    margin: 2rem;
+}
+.food-price-cut{
+    text-decoration: line-through;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.nepali-food{
+    display: none;
+}
+.indian-food{
+    display: none;
+}
+
+@media(max-width:600px){
+    .menu{
+        padding: 2rem;
+    }
+    .food-items{
+        display: block;
+    }
+}
+
+.new-price{
+    color: green;
+    animation: newprice 5s infinite;
+}
+@keyframes newprice {
+    25%{
+        color: rgba(255, 0, 0, 0);
+     
+    }
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Playfair Display", serif;
+}
+.loveditem>div>img{
+    margin: 10px;
+    border-radius: 20px;
+
+}
+.loveditem>div>img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.5s all ease-in-out;
+    
+}
+.speciality{
+    
+    border-top: 5px solid #333;
+}
+.speciality>div>div{
+    width: fit-content;
+    margin: 2rem;
+    border-radius: 30px;
+    background-color: black;
+}
+
+.speciality>div>div>img{
+    
+    opacity: 0.4;
+     max-width: 100%;
+    border-radius: 30px;
+   
+}
+
+.speciality h3{
+    display: none;
+}
+
+#a:hover +#b{
+   display: block;
+}
+.speciality>div>div>img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.chefs{
+    padding: 1rem;
+    display: flex;
+   
+}
+.chefs h1{
+    font-size: 10vw;
+    color: black;
+}
+
+#indianchef{
+    display: none;
+}
+pointer{
+ cursor: pointer;
+}
+
+.menu-bg,.features{
+   
+  background: url(../img/special-food-pattern1.png);
+  
+  background-position: center center;
+  background-repeat: repeat-x;
+
+}
+.bi-cup-fill, .bi-egg-fried{
+    font-size: 2rem;
+}
+.service-item i{
+   
+    margin : 0px 0px 0px 7vw;
+}
+.service-item i,span{
+    cursor: pointer;
+    
+}
+.service-item {
+    margin-bottom: 8vw;
+}
+.feature{
+ background-color: #333;
+ margin-top: -2vw;
+ margin-bottom: -2.5vw;
+}
+.features{
+    display: flex;
+    padding: 2vw;
+   margin-bottom: -1rem;
+  align-items: center;
+  background-color: #111111d6;
+  flex-wrap: wrap;
+}
+.bi-truck, .bi-people-fill, .bi-calendar-event-fill{
+    padding: 5rem;
+    font-size: 3rem;
+}
+.features>div{
+    padding: 3rem;
+   align-items: center;
+   
+}
+.blog{
+    background-color: #eee;
+     margin-top: 3rem;
+}
+.blog-item{
+    display:flex;
+}
+
+.blog-item>div{
+    margin: 2rem;
+}
+.blog-item>div>small{
+ border-right: 3px solid #7777;
+
+}
+
+.blog-item>div>small{
+    margin-right: 2px;
+ 
+}
+.blog-item>div>img{
+    border-radius: 20px;
+}
+.blog-item>div>img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border-radius: 30px;
+}
+.blog-item>div>div>a>h4>b:hover{
+   color: red;
+}
+@media (max-width:760px) {
+    .blog-item{
+        display: block;
+    }
+}
+.btn2{
+    padding-top: 1.2rem;
+     
+}
+.contact{
+    background-color: #333;
+    padding-top: 3rem;
+}
+.contact,h1 {
+    font-weight: bold;
+}
+.contact>div{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact>div>div{
+    margin: 3rem 0 0 5rem;
+}
+.social-media{
+   padding: 5px;
+  display: flex;
+}
+.social-media>a{
+    margin: 5px;
+}
+.footer{
+    background: url(../img/footer-bottom-bg.jpg);
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.footer>div{
+  width: 30%;
+  margin: 1rem;
+   
+}
+.footer>div>h2{
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+.opening-days{
+    display: flex;
+}
+
+.opening-days>div>ol{
+    list-style: none;
+}
+.opening-days li{
+    color: rgb(138, 137, 137);
+}
+.opening-days>div>ul>li{
+  list-style: none;
+}
+.opening-days>div>ul>li::before{
+   content: '>';
+   margin: 10px;
+  
+   font-size: 1.5rem;
+  }
+  .opening-days>div>ol>li::before{
+    list-style: none;
+    content: '>';
+    
+   color: rgba(0, 0, 0, 0);
+    font-size: 1.5rem;
+   }
+@media (max-width:640px) {
+    .footer>div{
+        width: 100%;
+    }
+    .opening-days>div>ul,ol{
+        padding: 0;
+    }
+    
+}
+
+.footer-end{
+    background: url(../img/footer-bottom-bg.jpg);
+}
+.pay-card{
+    display: flex;
+    justify-content: center;
+  padding: 1rem;
+   
+    width: 100%;
+    border-top: 2px solid gray;
+}
+.pay-card>img{
+    margin: 3px;
+}
+.bi-chevron-double-up{
+  font-size: 3rem;
+  margin: 5rem;
+  animation: go 5s infinite;
+}
+.go-top{
+    display: flex;
+    flex-direction: row-reverse;
+}
+@keyframes go {
+    0%{
+        color: aqua;
+    }
+    25%{
+        opacity: 0.5;
+    }
+    50%{
+       margin: 6.5rem;
+    }
+    75%{
+       color: gold;
+    }
+    100%{
+    opacity: 0.8;
+    }
+}

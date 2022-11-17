@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <!-- JavaScript Bundle with Popper -->
+ <script src="./js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/body.css">
+  <title>LiveKitchen</title>
+</head>
+
+<body>
+  <header id="home">
+    <div style="background-color: rgba(0, 0, 0, 0.884);" class="top">
+      <p class="left" style="color: gray; margin-bottom: 0; height: 3vw;"><i class="bi bi-alarm"></i>Book time 9am To
+        11pm</p>
+      <p class="left"><a href="mailto:janprakash.192011@ncit.edu.np"> <i class="bi bi-envelope"></i>Mail Us here</a></p>
+      <span style="display: none;" class="left">9am To 11pm</span>
+      <span class="right"><i class="bi bi-facebook"></i><i class="bi bi-twitter"></i><i class="bi bi-instagram"></i> <i
+          class="bi bi-search"></i></span>
+      <div class="clr"></div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light  ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Shops
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Shop 1</a></li>
+                <li><a class="dropdown-item" href="#">Shop 2</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Unknown</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Contact Page</a></li>
+                <li><a class="dropdown-item" href="#">About Page</a></li>
+                <li><a class="dropdown-item" href="#">Review Page</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dining
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Dining Menu One</a></li>
+                <li><a class="dropdown-item" href="#">Dining Menu Two</a></li>
+                <li><a class="dropdown-item" href="#">Dining Menu Three</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Blog List</a></li>
+                <li><a class="dropdown-item" href="#">Blog Single</a></li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="carousel-bg"><img src="./img/slide-bg1.jpg" alt="" class="img-fluid">
+
+  </div>
+
+  <div class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="brg-before left">
+          <h1 id="brand">American</h1>
+          <h1>Burger</h1>
+        </div>
+        <img src="./img/slider-01.png" class="d-block w-100" alt="..." class="img-fluid">
+        <div class="brg-After right">
+          <h1 style="color: antiquewhite;" id="brand">Indian</h1>
+          <h1>Food</h1>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <div class="brg-before left">
+          <h1 id="brand">Welcome</h1>
+          <h3>Livekitchen Testy Food</h3>
+        </div>
+        <img src="./img/slider-02.png" class="d-block w-100" alt="..." class="img-fluid">
+        <div class="brg-After right">
+          <h1 style="color: antiquewhite;">Indian Mixed Food</h1>
+          <div class="btn"> <a href="" style="color: antiquewhite;">Special Offer</a></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class=" abt-chef">
+    <div class="col-md-4 col-sm-6 reserv">
+      <h2>Take A</h2>
+      <h2 style="color: yellowgreen; line-height: 20px;">Reservation</h2>
+      <input type="text" value="" placeholder="Name">
+      <input type="email" value="" placeholder="E-mail">
+      <input type="phone" value="" placeholder="Phone">
+      <input type="date" value="" placeholder="Date">
+      <input type="time" value="" placeholder="Time">
+      <textarea name="Message" placeholder="Message" id=""></textarea>
+      <div class="btn btn1">Book A Table</div>
+    </div>
+    <div class="col-md-8 col-sm-6 chef-bg" style="padding: 2rem;">
+      <h1 style="font-weight: bold; color: black;">MR. Joshi</h1>
+      <p style="color: rgb(231, 41, 41); font-weight: bold;">Head Chef</p>
+      <div>
+        <p style="color: black;">Welcome to Livekitchen restaurant website. Here we try to share our vision about food
+          quality, our mission about customer’s satisfaction and introducing services that we provide for each one of
+          you.
+        </p>
+      </div>
+      <div><img src="./img/head-chip-image.png" alt="" class="img-fluid"></div>
+    </div>
+  </div>
+
+  <div class="menu row">
+    <div class="col-md-7">
+      <b style=" margin-bottom: 0px;"> For The Menu</b>
+      <h1><b style="color: black; ">Special Dishes Today</b></h1>
+      <b style="color: rgb(233, 53, 53);">10:00 to 16:00</b>
+      <div class="food-item">
+        <ul>
+          <li id="burger" style="color: black;"
+            onclick="document.getElementById('burger').style.color = 'black'; document.getElementById('nepalifood').style.color = 'gray';document.getElementById('indianfood').style.color = 'gray';document.querySelector('.burger').style.display='block';document.querySelector('.nepali-food').style.display='none';  document.querySelector('.indian-food').style.display='none';">
+            Burder</li>
+          <li id="indianfood"
+            onclick="document.getElementById('indianfood').style.color = 'black'; document.getElementById('nepalifood').style.color = 'gray';document.getElementById('burger').style.color = 'gray';document.querySelector('.indian-food').style.display='block'; document.querySelector('.burger').style.display='none';  document.querySelector('.nepali-food').style.display='none';">
+            Indian Food</li>
+          <li id="nepalifood"
+            onclick="document.getElementById('nepalifood').style.color = 'black';document.getElementById('burger').style.color = 'gray';document.getElementById('indianfood').style.color = 'gray'; document.querySelector('.nepali-food').style.display='block';document.querySelector('.burger').style.display='none';  document.querySelector('.indian-food').style.display='none';">
+            Nepali Food</li>
+        </ul>
+        <div class="clr"></div>
+
+        <div class="indian-food">
+          <div class="food-items">
+            <div class="food-img">
+              <img src="./img/menu-item-1.jpg" alt="">
+
+            </div>
+
+            <div>
+              <h4><b style="color: rgb(255, 42, 42);">Deer Steak with Potatoes</b></h4>
+              <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+            </div>
+
+            <div class="food-price">
+              <h4><b>$25</b></h4>
+            </div>
+
+          </div>
+          <div class="food-items">
+            <div class="food-img">
+              <img src="./img/menu-item-1.jpg" alt="">
+
+            </div>
+
+            <div>
+              <h4><b style="color: rgb(255, 42, 42);">Deer Steak with Potatoes</b></h4>
+              <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+            </div>
+
+            <div class="food-price">
+              <h4><b>$25</b></h4>
+            </div>
+
+          </div>
+          <div class="food-items">
+            <div class="food-img">
+              <img src="./img/menu-item-1.jpg" alt="">
+
+            </div>
+
+            <div>
+              <h4><b style="color: rgb(255, 42, 42);">Deer Steak with Potatoes</b></h4>
+              <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+            </div>
+
+            <div class="food-price">
+              <h4><b>$25</b></h4>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="nepali-food">
+          <div class="food-items">
+            <div class="food-img">
+              <img src="./img/menu-item-3.jpg" alt="">
+
+            </div>
+
+            <div>
+              <h4><b style="color: rgb(255, 42, 42);">Deer Steak with Potatoes</b></h4>
+              <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+            </div>
+
+            <div class="food-price">
+              <h4><b>$25</b></h4>
+            </div>
+
+          </div>
+          <div class="food-items">
+            <div class="food-img">
+              <img src="./img/menu-item-3.jpg" alt="">
+
+            </div>
+
+            <div>
+              <h4><b style="color: rgb(255, 42, 42);">Deer Steak with Potatoes</b></h4>
+              <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+            </div>
+
+            <div class="food-price">
+              <h4><b>$25</b></h4>
+            </div>
+
+          </div>
+          <div class="food-items">
+            <div class="food-img">
+              <img src="./img/menu-item-3.jpg" alt="">
+
+            </div>
+
+            <div>
+              <h4><b style="color: rgb(255, 42, 42);">Deer Steak with Potatoes</b></h4>
+              <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+            </div>
+
+            <div class="food-price">
+              <h4><b>$25</b></h4>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="burger">
+          <div class="food-items">
+            <div class="food-img">
+              <img src="./img/menu-item-2.jpg" alt="">
+
+            </div>
+
+            <div>
+              <h4><b style="color: rgb(255, 42, 42);">Mix Burger</b></h4>
+              <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+            </div>
+
+            <div class="food-price">
+              <h4><b class="food-price-cut">$25</b> <b class="new-price">$22</b></h4>
+            </div>
+
+          </div>
+          <div class="food-items">
+            <div class="food-img">
+              <img src="./img/menu-item-2.jpg" alt="">
+
+            </div>
+
+            <div>
+              <h4><b style="color: rgb(255, 42, 42);">Chicken Burger</b></h4>
+              <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+            </div>
+
+            <div class="food-price">
+              <h4><b>$29</b></h4>
+            </div>
+
+          </div>
+          <div class="food-items">
+            <div class="food-img">
+              <img src="./img/menu-item-2.jpg" alt="">
+
+            </div>
+
+            <div>
+              <h4><b style="color: rgb(255, 42, 42);">Veg Burger With French Fry</b></h4>
+              <p>Welcome to Risotto restaurant website. Here we try to share our</p>
+            </div>
+
+            <div class="food-price">
+              <h4><b>$15</b></h4>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="col-md-5">
+      <center>
+        <h2 style="color: #d8a16c; font-size: 6rem; font-weight: bold;">We Love</h2><b>To Make</b>
+        <h2 style="color: black; font-size: 5rem;">Food</h2>
+      </center>
+      <div class="row loveditem">
+
+        <div class="col-md-6 col-sm-6 col-xs-6">
+          <img src="./img/1.png" alt="">
+        </div>
+
+        <div class="col-md-6 col-sm-6 col-xs-6">
+          <img src="./img/2.png" alt="">
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6">
+          <img src="./img/3.png" alt="">
+        </div>
+
+        <div class="col-md-6 col-sm-6 col-xs-6">
+          <img src="./img/4.png" alt="">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="speciality row">
+    <div class="col-md-6">
+      <center style="padding: 15px;">
+        <h2 style="color: black; font-size: 10vw; font-weight: bold;">Our
+          Specialty</h2><b style="color: rgb(255, 37, 37); font-size: 10vw;">Cuisine</b><h2 style="color: black;">Best of
+            our
+            Event portfolio Photos
+            videos</h2>
+            <p style="font-size: 1rem;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi laudantium ea nemo enim accusantium minus vitae quam aliquam, quas molestiae.</p>
+            <div class="btn btn1">More gallery</div>
+          </center>
+
+    </div>
+
+    <div class="col-md-3 ">
+      <div> <img src="./img/img-1.jpg" alt="" id="a"><h3 style="color: black; position: absolute; " id="b">Indian Hot Biriyani</h3></div>
+     
+      <div> <img src="./img/img-2.jpg" alt="" id="a"><h3 style="color: black; position: absolute; " id="b">American Burger</h3></div>
+      
+    </div>
+    <div class="col-md-3">
+      <div> <img src="./img/img-3.jpg" alt=""id="a"><h3 style="color: black; position: absolute; "id="b">Special Pan Pizaa</h3></div>
+      <div> <img src="./img/img-4.jpg" alt=""id="a"><h3 style="color: black; position: absolute; "id="b">Special Hot Cofee</h3></div>
+      <div> <img src="./img/img-8.jpg" alt=""id="a"><h3 style="color: black; position: absolute; "id="b">Indian Mixed Food</h3></div>
+    </div>
+  </div>
+
+  <div>
+    <center style="border-top: 1px solid black;"><h1 style="font-size:5vw; color: black; font-weight: bold;">In The Kitchen</h1><b style="color:black">Our experts chef</b></center>
+     <div class="chefs" id="burgerchef">
+        <div>
+          <h1 style="color: yellowgreen;">I Love </h1><b>To</b><h1>Make</h1>
+        </div>
+        <div>
+          <img src="./img/image-01.png" alt="" class="img-fluid">
+          <center><h2><b>Zenifer Smith</b></h2>
+          <p> American food specialist</p></center>
+        </div>
+        <div>
+          <h1 style="color: burlywood;">Burger </h1><b>And </b><h1>Pizza</h1>
+          <div style="margin-left: 10vw;">
+             <div style="cursor: pointer;" onclick="document.getElementById('indianchef').style.display = 'flex';document.getElementById('burgerchef').style.display = 'none';"><i class="bi bi-chevron-right" style="color: black; font-size: 10vw; font-weight: bold;" ></i></div> 
+          </div>
+        </div>
+     </div>
+
+     <div class="chefs" id="indianchef">
+      <div>
+        <h1 style="color: yellowgreen;">I Love </h1><b>To</b><h1>Make</h1>
+      </div>
+      <div>
+        <img src="./img/image-02.png" alt="" class="img-fluid">
+        <center><h2><b>Rakib Smith</b></h2>
+          <p s> Indian food specialist</p></center>
+       
+      </div>
+      <div>
+        <h1 style="color: burlywood;">Indian </h1><b>And </b><h1>Food</h1>
+        <div style="margin-left: 10vw;">
+          <div style="cursor: pointer;" onclick="document.getElementById('burgerchef').style.display = 'flex';document.getElementById('indianchef').style.display = 'none';"><i class="bi bi-chevron-right" style="color: black; font-size: 10vw; font-weight: bold;" ></i></div> 
+        </div>
+      </div>
+   </div> 
+  </div>
+
+  <div class="services">
+   <div class="row menu-bg" >
+     
+       <div class="service-item">
+        <br><br><br>
+        <i class="bi bi-cup-fill"></i><span style="font-size: 1.5rem;">Breakfast</span> 
+        <i class="bi bi-egg-fried"></i></i><span style="font-size: 1.5rem;">Lunch</span> 
+        <i class="bi bi-cup-fill"></i><span style="font-size: 1.5rem;">Burger / Pizza</span> 
+        <i class="bi bi-cup-fill"></i><span style="font-size: 1.5rem;">Coffe / Drinks</span> 
+       </div> 
+   </div>
+<br>
+   
+   <center class="feature"><h1><strong>Our Features</strong></h1></center>
+ 
+   <div class="features">
+      
+     <div>
+      <i class="bi bi-truck"></i>
+       <h1>Daily Services</h1>
+     </div>
+     <div>
+      <i class="bi bi-calendar-event-fill"></i>
+      <h1>Ready for Events</h1>
+    </div>
+    <div>
+      <i class="bi bi-people-fill"></i>
+      <h1>Trained Staff</h1>
+    </div>
+   </div>
+  </div>
+
+  <div class="blog">
+    <h1 style="color: #e7272ded; font-weight: bold; font-size: 3rem; text-align: center;">Blog</h1>
+    <h4 style="color: #777777; text-align:center; font-weight:bold;">Meet out of our testy food</h4>
+    <div class="row">
+      <div class=" col-lg-8 col-md  blog-item">
+         <div>
+           
+            <img src="./img/blog1.jpg" alt="" width="200px" height="150px">
+            <div>
+            <small  style="color: #777777;">jun 05, 2022  </small><span  style="color: #777777;">  Rooms & Suites</span>
+            <a href=""> <h4><b>Finding best places to visit in Kathmandu.</b></h4></a>
+           </div>
+           
+          </div>
+         <div>
+          <img src="./img/blog2.jpg" alt="" width="200px" height="150px">
+          <div>
+            <small  style="color: #777777;">jun 05, 2022  </small><span  style="color: #777777;">  Rooms & Suites</span>
+          <a href=""> <h4><b>Finding best places to visit in Kathmandu.</b></h4></a>
+          </div>
+          
+        </div>
+        <div>
+          <img src="./img/blog3.jpg" alt="" width="200px" height="150px">
+          <div>
+            <small  style="color: #777777;">jun 05, 2022  </small><span  style="color: #777777;">  Rooms & Suites</span>
+            <a href=""> <h4><b>Finding best places to visit in Kathmandu.</b></h4></a>
+          </div>
+         
+        </div>
+     </div>
+    
+     <div class=" col col-lg-4 col-md-12" style="padding: 3rem;">
+    <h1 style="text-align: center; color: #222; font-weight: bold;">Our Article</h1>
+    <p style="color: #777777; text-align: center;">Upgrade Our
+      Restaurant and Services
+      Latest News</p>
+      <center>
+        <div class="btn btn2">
+          
+            <p>MORE ARTICLE</p>
+         
+         
+        </div></center>
+     </div>
+  
+   </div>
+  </div>
+
+  <div class="contact">
+    <center>
+      <h1>We Are Available</h1>
+      <h1>For You 24/7</h1>
+      <p style="color: rgb(138, 137, 137);">Our online support service is always 24 Hours</p>
+    </center>
+    <div>
+      <div>
+        <h3 ><b style="color: white;"class="bi bi-file-person-fill">  Address</b></h3>
+        <p style="color: rgb(138, 137, 137);">Baneshwor,Kathmandu</p>
+        <p style="color: rgb(138, 137, 137); margin-top: -1rem;">Asia,Nepal</p>
+      </div>
+      <div>
+        <h3 ><b style="color: white;"class="bi bi-telephone-fill">  Call</b></h3>
+        <p style="color: rgb(138, 137, 137); margin-top: 1rem;"><a href="tel:977-9825690510">Call Us </a></p>
+      </div>
+      <div>
+        <h3 ><b style="color: white;"class="bi bi-envelope-fill">  Mail</b></h3>
+        <p style="color: rgb(138, 137, 137);">livekitchen@jpjoshi.com.np</p>
+        <p style="color: rgb(138, 137, 137); margin-top: -1rem;">livekitchen@janprakash.com.np</p>
+      </div>
+      <div>
+        <h3 ><b style="color: white;"class="bi bi-share-fill">  Social Accounts</b></h3>
+        <div class="social-media">
+        <a href="https://www.facebook.com/janprakash.jp" target="_blank"><h1><i class="bi bi-facebook"></i></h1></a>
+        <a href="https://www.facebook.com/janprakash.jp" target="_blank"><h1><i class="bi bi-instagram"></i></h1></a>
+        <a href="https://www.facebook.com/janprakash.jp" target="_blank"><h1><i class="bi bi-twitter"></i></h1></a>
+        <a href="https://www.facebook.com/janprakash.jp" target="_blank"><h1><i class="bi bi-google"></i></h1></a>
+         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+
+   <div>
+     
+     <h2>About LiveKitchen</h2>
+     <br>
+     <p style="color: rgb(138, 137, 137);">We Provide Premium Word Press, Ghost and HTML template. Our Premium Templates, Themes are developed in a way so that the clients find their in life easier and get solved instantly by Support. Themes are developed in a way so that the clients find.</p>
+     <button class="btn">More</button>
+    </div>
+   <div>
+    
+    <h2>Opening Hour</h2>
+    <br>
+     <div class="opening-days">
+       <div>
+         <ul>
+           <li>Sunday</li>
+           <li>Monday</li>
+           <li>Tuesday</li>
+           <li>Wednesday</li>
+           <li>Thursday</li>
+           <li>Friday</li>
+           <li style="color: red;">Saturday</li>
+         </ul>
+       </div>
+       <div>
+        <ol>
+          <li>8.00am_12.00pm</li>
+          <li>8.00am_12.00pm</li>
+          <li>8.00am_12.00pm</li>
+          <li>8.00am_12.00pm</li>
+          <li>8.00am_12.00pm</li>
+          <li>8.00am_12.00pm</li>
+          <li style="color: red;">Closed</li>
+        </ol>
+      </div>
+     </div>
+   
+  </div>
+  <div>
+    <h2>Newsletter</h2>
+    <br>
+    <p style="color: rgb(138, 137, 137);">Join our malling list to receive news and announcements</p>
+    <br>
+    <input type="text">
+    <center><button class="btn">Subscribe</button></center>
+  </div>
+  
+</div>
+<div class="footer-end">
+  <div  class="pay-card">
+    <img src="./img/card-1.png" alt="">
+    <img src="./img/card-2.png" alt="">
+    <img src="./img/card-3.png" alt="">
+    <img src="./img/card-4.png" alt="">
+  </div>
+  
+  <center style="color: rgb(138, 137, 137); padding-bottom: 25px;">Copyright 2022 Janprakash- All Right Reserved jpjoshi.com.np</center>
+ <div class="go-top"> <a href="#home">
+    <span class="bi bi-chevron-double-up"></span>
+</a></div>
+</div>
+  
+</body>
+
+</html>

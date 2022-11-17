@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body {
+    background-attachment: fixed;
+    background-color: #ffffff;
+    color: #6f7074;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.642;
+    overflow-x: hidden;
+    transition: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navbar{
+
+    background-color: transparent !important;
+    z-index: 999;
+   position: relative;
+   position: sticky;
+   
+}
+.nav-item a{
+    font-weight: bold;
+}
+.navbar-nav {
+    
+    padding-left: 30px;
+    
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: auto;                   
+                      
+}
+
+@media (min-width: 992px){
+    
+.paddingleft{
+    padding-left: 12rem;
+}
+.bg-blue{
+        
+    top: -15px !important;
+ }
+}
+@media (max-width: 992px){
+    
+    
+}
+/* Dropdown Button */
+/* .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  } */
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  .slide:before {
+    background-image: -moz-linear-gradient(135deg, rgb(255, 16, 83) 0%, rgb(52, 82, 255) 100%);
+    background-image: -webkit-linear-gradient(135deg, rgb(255, 16, 83) 0%, rgb(52, 82, 255) 100%);
+    background-image: -ms-linear-gradient(135deg, rgb(255, 16, 83) 0%, rgb(52, 82, 255) 100%);
+    bottom: -10px;
+    content: "";
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.slide{
+    margin-top: -4.6rem;
+    padding: 165px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner-btn {
+    border: 2px solid #ffffff;
+    ;border-radius: 27px;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    padding: 12px 50px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+.say{
+    font-size: 1rem;
+    font-weight: bold;
+    top: calc(50% + 120px);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.bg-blue{
+    min-height: 6rem;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    
+    background-color: #70707c;
+  animation-name: slideInDown;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+@keyframes slideInDown {
+    
+
+0% {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+}
+100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+}
+
+.arrow{
+    margin-top: 5.5rem;
+    text-align: center;
+     margin-left: -45px;
+    font-size: 16px;
+  
+}
+.arrow>svg{
+    position: absolute;
+    margin-top: -1.5rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 0px rgb(32 32 32 / 95%);
+    background-color: white;
+}
+.arrow::after{
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    bottom: -80px;
+    content: "";
+    height: 120px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 129px;
+    
+}
+.courses{
+    margin: 3rem;
+}
+.img-courses{
+    display: block; height: 10rem;
+    background-size: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 60px 30px 55px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.img-courses::before{
+    background-color: rgba(10, 10, 10, .5);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.row{
+    padding: 2rem;
+}
+.detail{
+    padding: 0.5rem;
+    margin: -1rem;
+    display: block;
+    position: absolute;
+}
+.img-courses:hover{
+    margin-top: -15px;
+}
+.img-courses:hover::before{
+    
+    background-color: rgba(36, 65, 231, .8);
+}
+
+.banner{
+background-image: url(../img/2.jpg); 
+background-size: cover; 
+background-repeat: no-repeat;
+ padding: 250px 0;
+  background-position: 100% 0px;
+  
+}
+.banner::after{
+    background-color: rgba(25, 38, 117, 0.8);
+    content: "";
+    height: 80%;
+    left: 0;
+    margin-top: -15.6rem;
+    position: absolute;
+    width: 100%;
+   
+}
+.btn{
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    color: #ffffff;
+    height: 50px;
+    line-height: 47px;
+    padding: 0 60px;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: #3e8e41 !important;
+    color: white;
+    border: none;
+}
+.container1{
+    margin-top: -5rem;
+    z-index: 1;
+    position: absolute;
+}
+
+.bi{
+    color: #d0d23c;
+}
+
+.top_courses {
+    background-color: #ffffff;
+    border: 2px solid #eeeeee;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.top-courses .details .tc-footer {
+
+    border-top: 1px solid #eeeeee;
+    display: flow-root;
+    padding: 10px 20px;
+    position: relative;
+}
+.tc-review{
+    margin-left: -2rem;
+
+}
+.details{
+    border-radius: 15px;
+    border: 0.5px solid #eee;
+    margin-top: -2rem;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+.tc-footer>ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-courses:hover .thumb::before .overlay:before {
+    background-color: rgba(0, 0, 0, .4);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.tag{
+    background-color: #c75533;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 13px;
+    height: 30px;
+    line-height: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 90px;
+}
+.overlay{
+    position: absolute;
+    margin-top: -15rem;
+    padding: 1rem;
+}
+.tc-preview-course{
+    margin-top: -2rem;
+}
+.thumb>img::before{
+    background-color: black;
+    position: relative;
+}
+.img-top-courses:hover::before {
+    color: white;
+    content: "Preview";
+    background-color: rgba(0, 0, 0, 0.753);
+}
+
+
+.slideimg {
+   
+ border-radius: 50%;
+}
+.flex{
+    display: flex;
+}
+.black{
+    color: black;
+}
+.appimg{
+   background-attachment: fixed;
+    background-image: url(../img/3.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0px;
+    border-radius: 1rem;
+}
+.app{
+   
+    padding: 0;
+}
+.appimg>div{
+    justify-content: space-evenly;
+}
+input.form-control{
+   
+    border-radius: 5px;
+    height: 50px;
+    margin: 0 auto;
+    width: 65%;
+    display: inline;
+    box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 9%);
+}
+.list-unstyled{
+    list-style: none;
+    text-decoration: none;
+}
+
+.newsletter{
+    margin: 5rem; padding: 5rem; 
+}
+
+@media only screen and (max-width: 933px){
+    .newsletter{
+        margin: 5px; padding: 0; 
+    }
+}
+.footerlast{
+    border-top: 1px solid #ddd;
+}
+

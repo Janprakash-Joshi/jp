@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDUJOSHI</title>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <!-- JavaScript Bundle with Popper -->
+ <script src="./js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./css/mycss.css">
+</head>
+
+<body id="home">
+  <!-- header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid" id="container-fluid">
+      <a class="navbar-brand" href="#">
+        <h3><img src="./img/header-logo1.png" alt="" width="40" height="40"><strong>EDUJP</strong></h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="margin-left: 7rem;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="nav-link dropbtn">Courses<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+                  <path
+                    d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+                </svg></a>
+              <div class="dropdown-content">
+                <a href="#">HTML</a>
+                <a href="#">CSS</a>
+                <a href="#">JavaScript</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="nav-link dropbtn">Events<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+                  <path
+                    d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+                </svg></a>
+              <div class="dropdown-content">
+                <a href="#">Event List</a>
+                <a href="#">Calender</a>
+                <a href="#">Day View</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+          <li class="nav-item paddingleft">
+            <a class="nav-link" href="#">LogIn<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+              </svg></a>
+          </li>
+          <li class="nav-item">
+
+            <a class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                class="bi bi-search" viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+              </svg> <input type="text" style="width: 120px; color: black;"></a>
+
+      </div>
+
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <!-- header -->
+
+  <div class="slide" style="background-image: url(./img/1.jpg); height: 95vh;">
+    <div class="say">
+      <h2 style="font-weight: bold;">Learn From Anywhere</h2>
+      <p>Technology is bringing a massive wave of evolution on learning things in different ways.</p>
+      <div class="btn-block"><a href="#" class="banner-btn" style="text-decoration: none;">Ready to Get Started?</a>
+      </div>
+    </div>
+  </div>
+
+  <a href="#courses">
+    <div class="arrow">
+      <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="red" class="bi bi-arrow-down"
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+      </svg>
+    </div>
+  </a>
+  <br id="courses"><br><br>
+  <div>
+    <div class="courses" style="text-align: center;">
+      <h3 style="color: black; font-weight: bold;">Via School Categories Courses</h3>
+      <p style="color: gray;">Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-lg-3 col">
+        <a href="" style="background-image: url(./img/design.jpg);" class="img-courses">
+          <div class="detail">
+            <h4>Design</h4>
+            <p>Over 400 courses</p>
+          </div>
+
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <a href="" style="background-image: url(./img/business.jpg);" class="img-courses">
+          <div class="detail">
+            <h4>Busines</h4>
+            <p>Over 300 courses</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <a href="" style="background-image: url(./img/software.jpg);" class="img-courses">
+          <div class="detail">
+            <h4>Software Development</h4>
+            <p>Over 200 courses</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <a href="" style="background-image: url(./img/web.jpg);" class="img-courses">
+          <div class="detail">
+            <h4>Web Development</h4>
+            <p>Over 400 courses</p>
+          </div>
+
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <a href="" style="background-image: url(./img/photography.jpg);" class="img-courses">
+          <div class="detail">
+            <h4>Photography</h4>
+            <p>Over 400 courses</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <a href="" style="background-image: url(./img/audio-music.jpg);" class="img-courses">
+          <div class="detail">
+            <h4>Audio + Music</h4>
+            <p>Over 400 courses</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <a href="" style="background-image: url(./img/marketing.jpg);" class="img-courses">
+          <div class="detail">
+            <h4>marketing</h4>
+            <p>Over 400 courses</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <a href="" style="background-image: url(./img/3d.jpg);" class="img-courses">
+          <div class="detail">
+            <h4>3D Modeling</h4>
+            <p>Over 400 courses</p>
+          </div>
+        </a>
+      </div>
+      <div style="text-align: center;"><a style="color: black; border: 1px solid green;" class="btn">View All
+          Courses</a></div>
+    </div>
+  </div>
+
+  <br>
+  <hr>
+
+  <div class="banner">
+    <div class="container container1">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2 text-center">
+          <p>STARTING ONLINE LEARNING</p>
+          <h1>ENHANCE YOUR SKILLS WITH BEST ONLINE COURSES</h1>
+          <a href="" class="btn">Get Started Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+ 
+  <div class="our-top-courses mt-5">
+    <div class="container">
+      <div class="text-center">
+        <h3 style="color: black;">Browse Our Top Courses</h3>
+        <p style="color: grey;">Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-lg-3 col">
+          <div>
+            <a href="" style="background-image: url(./img/design.jpg);" class="img-courses img-top-courses">
+            </a>
+  
+            <a href="" style="text-decoration: none;">
+              <div class="details">
+                <div class="tc-content">
+                  <p style="color: gray; margin-bottom: 0;">Updated 22/04/12</p>
+                  <h6><b style="color: black;">Fashion Photography From Professional</b></h6>
+                  <ul class="tc-review">
+                    <li class="list-inline-item">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </li>
+                  </ul>
+                </div>
+  
+                <div class="tc-footer">
+                  <ul>
+                    <li>
+                      <i class="bi bi-person-fill" style="color: black;"></i><span style="color: black;"> 3</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chat-left-dots-fill" style="color: black;"></i><span style="color: black;"> 3</span>
+                    </li>
+                  </ul>
+                </div>
+                </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 col">
+          <div>
+            <a href="" style="background-image: url(./img/design.jpg);" class="img-courses img-top-courses">
+            </a>
+  
+            <a href="" style="text-decoration: none;">
+              <div class="details">
+                <div class="tc-content">
+                  <p style="color: gray; margin-bottom: 0;">Updated 22/04/12</p>
+                  <h6><b style="color: black;">Fashion Photography From Professional</b></h6>
+                  <ul class="tc-review">
+                    <li class="list-inline-item">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </li>
+                  </ul>
+                </div>
+  
+                <div class="tc-footer">
+                  <ul>
+                    <li>
+                      <i class="bi bi-person-fill" style="color: black;"></i><span style="color: black;"> 3</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chat-left-dots-fill" style="color: black;"></i><span style="color: black;"> 3</span>
+                    </li>
+                  </ul>
+                </div>
+                </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 col">
+          <div>
+            <a href="" style="background-image: url(./img/design.jpg);" class="img-courses img-top-courses">
+            </a>
+  
+            <a href="" style="text-decoration: none;">
+              <div class="details">
+                <div class="tc-content">
+                  <p style="color: gray; margin-bottom: 0;">Updated 22/04/12</p>
+                  <h6><b style="color: black;">Fashion Photography From Professional</b></h6>
+                  <ul class="tc-review">
+                    <li class="list-inline-item">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </li>
+                  </ul>
+                </div>
+  
+                <div class="tc-footer">
+                  <ul>
+                    <li>
+                      <i class="bi bi-person-fill" style="color: black;"></i><span style="color: black;"> 3</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chat-left-dots-fill" style="color: black;"></i><span style="color: black;"> 3</span>
+                    </li>
+                  </ul>
+                </div>
+                </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 col">
+          <div>
+            <a href="" style="background-image: url(./img/design.jpg);" class="img-courses img-top-courses">
+            </a>
+  
+            <a href="" style="text-decoration: none;">
+              <div class="details">
+                <div class="tc-content">
+                  <p style="color: gray; margin-bottom: 0;">Updated 22/04/12</p>
+                  <h6><b style="color: black;">Fashion Photography From Professional</b></h6>
+                  <ul class="tc-review">
+                    <li class="list-inline-item">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </li>
+                  </ul>
+                </div>
+  
+                <div class="tc-footer">
+                  <ul>
+                    <li>
+                      <i class="bi bi-person-fill" style="color: black;"></i><span style="color: black;"> 3</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chat-left-dots-fill" style="color: black;"></i><span style="color: black;"> 3</span>
+                    </li>
+                  </ul>
+                </div>
+                </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 col">
+          <div>
+            <a href="" style="background-image: url(./img/design.jpg);" class="img-courses img-top-courses">
+            </a>
+  
+            <a href="" style="text-decoration: none;">
+              <div class="details">
+                <div class="tc-content">
+                  <p style="color: gray; margin-bottom: 0;">Updated 22/04/12</p>
+                  <h6><b style="color: black;">Fashion Photography From Professional</b></h6>
+                  <ul class="tc-review">
+                    <li class="list-inline-item">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </li>
+                  </ul>
+                </div>
+  
+                <div class="tc-footer">
+                  <ul>
+                    <li>
+                      <i class="bi bi-person-fill" style="color: black;"></i><span style="color: black;"> 3</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chat-left-dots-fill" style="color: black;"></i><span style="color: black;"> 3</span>
+                    </li>
+                  </ul>
+                </div>
+                </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 col">
+          <div>
+            <a href="" style="background-image: url(./img/design.jpg);" class="img-courses img-top-courses">
+            </a>
+  
+            <a href="" style="text-decoration: none;">
+              <div class="details">
+                <div class="tc-content">
+                  <p style="color: gray; margin-bottom: 0;">Updated 22/04/12</p>
+                  <h6><b style="color: black;">Fashion Photography From Professional</b></h6>
+                  <ul class="tc-review">
+                    <li class="list-inline-item">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </li>
+                  </ul>
+                </div>
+  
+                <div class="tc-footer">
+                  <ul>
+                    <li>
+                      <i class="bi bi-person-fill" style="color: black;"></i><span style="color: black;"> 3</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chat-left-dots-fill" style="color: black;"></i><span style="color: black;"> 3</span>
+                    </li>
+                  </ul>
+                </div>
+                </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 col">
+          <div>
+            <a href="" style="background-image: url(./img/design.jpg);" class="img-courses img-top-courses">
+            </a>
+  
+            <a href="" style="text-decoration: none;">
+              <div class="details">
+                <div class="tc-content">
+                  <p style="color: gray; margin-bottom: 0;">Updated 22/04/12</p>
+                  <h6><b style="color: black;">Fashion Photography From Professional</b></h6>
+                  <ul class="tc-review">
+                    <li class="list-inline-item">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </li>
+                  </ul>
+                </div>
+  
+                <div class="tc-footer">
+                  <ul>
+                    <li>
+                      <i class="bi bi-person-fill" style="color: black;"></i><span style="color: black;"> 3</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chat-left-dots-fill" style="color: black;"></i><span style="color: black;"> 3</span>
+                    </li>
+                  </ul>
+                </div>
+                </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 col">
+          <div>
+            <a href="" style="background-image: url(./img/design.jpg);" class="img-courses img-top-courses">
+            </a>
+  
+            <a href="" style="text-decoration: none;">
+              <div class="details">
+                <div class="tc-content">
+                  <p style="color: gray; margin-bottom: 0;">Updated 22/04/12</p>
+                  <h6><b style="color: black;">Fashion Photography From Professional</b></h6>
+                  <ul class="tc-review">
+                    <li class="list-inline-item">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </li>
+                  </ul>
+                </div>
+  
+                <div class="tc-footer">
+                  <ul>
+                    <li>
+                      <i class="bi bi-person-fill" style="color: black;"></i><span style="color: black;"> 3</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chat-left-dots-fill" style="color: black;"></i><span style="color: black;"> 3</span>
+                    </li>
+                  </ul>
+                </div>
+                </div>
+            </a>
+          </div>
+        </div>
+          
+     </div>
+     </div>
+     </div>
+     
+    <div class="container">
+      <div class="row"  style="background-color: rgb(237 237 237); min-height: 23rem !important;">
+      <h3 style="color: black; text-align: center;">What People Say</h3>
+       <p style="color: black; text-align: center;">Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+
+      
+      <div id="carouselExampleSlidesOnly" class="carousel slides" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <center>
+              <h1 class="black">John</h1>
+              <img src="./img/person1.jpg" class="d-block slideimg" alt="...">
+              <p class="black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, hic!</p>
+            </center>
+            
+          </div>
+          <div class="carousel-item">
+            <center>
+              <h1 class="black">Anna</h1>
+              <img src="./img/person2.jpg" class="d-block slideimg" alt="...">
+              <p class="black"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, possimus?</p>
+            </center>
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    </div>
+    <div class="app">
+      <div class="appimg">
+        <div class="row">
+          <div  class="col-sm-6 col-lg-3 col">
+             <h3>Download & Enjoy</h3>
+             <p>Access your courses anywhere, anytime & prepare with practice tests.</p>
+          </div>
+          <div   class="col-sm-6 col-lg-3 col">
+             <img src="./img/phone_home.png" alt="" class="img-fluid">
+          </div>
+          <div  class="col-sm-6 col-lg-3 col"> 
+            <a href="" class="btn"> <i class="bi bi-apple" style="font-size: large; "></i> App Store</a>
+             <br><br>
+            <a href="" class="btn"><i class="bi bi-play-fill"style="font-size: 22px; "></i> Play Store</a>
+          </div>
+        </div>
+      </div>
+    </div>
+   <div class="newsletter">
+     <h2><strong><center class="black">Get Newsletter</center></strong></h2>
+     <center><p style="color: gray;">Your download should start automatically, if not Click here. Should I give up, huh?.</p></center>
+       <div style="text-align: center; margin-top: 5rem;">
+         <input type="email" placeholder="Enter E-mail Address" class="form-control">
+         <button class="btn" style="background-color: blue;">Get it now <i style="color: white; font-weight: bold;" class="bi bi-arrow-right"></i></button>
+       </div>
+    </div>
+   <hr>
+    <footer>
+        <div style="background-color:#111;">
+            <div class="container">
+               <div class="row">
+                   <div class="col-sm-6 col-md-4 col-md-3 col-lg-3">
+                    <div>
+                      <h4>CONTACT</h4>
+                      <p>Baneshwor,Kathmandu, Nepal </p>
+                      <p>123 456 7890</p>
+                      <p>support@EDUJP.com</p>
+                    </div>
+                   </div>
+                   <div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
+                    <div>
+                      <h4>COMPANY</h4>
+                      <ul class="list-unstyled">
+                        <li><a href="#" class="list-unstyled">About Us</a></li>
+                        <li><a href="#"class="list-unstyled">Blog</a></li>
+                        <li><a href="#"class="list-unstyled">Contact</a></li>
+                        <li><a href="#"class="list-unstyled">Become a Teacher</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
+                    <h4>SUPPORT</h4>
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="list-unstyled">Nanodegree Plus</a></li>
+                      <li><a href="#"class="list-unstyled">Veterans</a></li>
+                      <li><a href="#"class="list-unstyled">Georgia</a></li>
+                      <li><a href="#"class="list-unstyled">Self-Driving Car</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-md-3 col-lg-2">
+                    <h4>COMPANY</h4>
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="list-unstyled">Documentation</a></li>
+                      <li><a href="#"class="list-unstyled">Forums</a></li>
+                      <li><a href="#"class="list-unstyled">Language Packs</a></li>
+                      <li><a href="#"class="list-unstyled">Release Status</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 col-md-3 col-lg-3 p-0">
+                    <div style="margin-left: 4rem;">
+                   <h4>MOBILE</h4></div>
+                    <a href="" class="btn"> <i class="bi bi-apple" style="font-size: large;"></i> App Store</a>
+                    <br><br>
+                   <a href="" class="btn"><i class="bi bi-play-fill"style="font-size: 22px; "></i> Play Store</a>
+                  
+                  </div>
+               </div>
+            </div>
+        </div>
+        <div style="background-color: black;" class=" p-5 footerlast">
+         <center><a href="#home"><i class="bi bi-chevron-double-up"></i></a></center> 
+          <center>Copyright © 2022 Janprakash Joshi. All Rights Reserved.</center>
+          <center><a href="mailto:janprakash.192011@ncit.edu.np"><i class="bi bi-envelope-fill"></i></a></center>
+          
+        </div>
+    </footer>
+   
+  <script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function () { myFunction() };
+
+    // Get the navbar
+    var navbar = document.getElementById("container-fluid");
+
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("bg-blue");
+      } else {
+        navbar.classList.remove("bg-blue");
+      }
+    }
+  </script>
+</body>
+
+</html>
