@@ -369,7 +369,7 @@ setTimeout(abc,4000)
  
   function cv()
   {
-    setTimeout(cvloading,10000)
+    setTimeout(cvloading,5000)
       function cvloading(){
         document.getElementById('cvloading').style.display='none';
       }
