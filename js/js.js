@@ -1,19 +1,22 @@
+let cvblock=document.getElementById('jpcv');
+let homeblock=document.getElementById('flex');
+
 setTimeout(abc,4000)
     function abc() {
     document.getElementById('loader').style.display='none';
     document.getElementById('load').style.display='none';
     document.getElementById('flex').style.display='flex';
-    document.getElementById('flex').style.opacity='0.2';
+    document.getElementById('flex').style.opacity='0.7';
    
   }
    home() 
    setTimeout(bcd,5000)
    function bcd(){
-    document.getElementById('flex').style.opacity='0.4';
+    document.getElementById('flex').style.opacity='0.8';
    }
    setTimeout(bcd0,6000)
    function bcd0(){
-    document.getElementById('flex').style.opacity='0.7';
+    document.getElementById('flex').style.opacity='0.9';
    }
    setTimeout(bcd0,8000)
    function bcd0(){
@@ -110,6 +113,9 @@ setTimeout(abc,4000)
       //     N.style.display = 'none';
       //     O.style.display = 'none';
       //     P.style.display = 'block';
+
+      
+
    }
 
    function home() {
@@ -173,6 +179,8 @@ setTimeout(abc,4000)
           
          
           
+         
+          
    }
 
    function contact() {
@@ -232,6 +240,8 @@ setTimeout(abc,4000)
           N.style.display = 'block';
           O.style.display = 'none';
           P.style.display = 'block';
+
+         
    }
 
     function blogs() {
@@ -292,6 +302,8 @@ setTimeout(abc,4000)
           N.style.display = 'block';
           O.style.display = 'block';
           P.style.display = 'none';
+
+          
    }
 
    function scrolling(){
@@ -353,7 +365,29 @@ setTimeout(abc,4000)
   }
 
 
-
+ 
+ 
+  function cv()
+  {
+    setTimeout(cvloading,10000)
+      function cvloading(){
+        document.getElementById('cvloading').style.display='none';
+      }
+    
+   cvblock.style.display='block';
+   homeblock.style.display='none';
+   cvcounter=1;
+   document.getElementById('nav').style.zIndex='-1';
+    
+  }
+  function cv1()
+  {
+    cvblock.style.display='none';
+   homeblock.style.display='block';
+   document.getElementById('nav').style.zIndex='999';
+   home();
+  }
+ 
 
 
 
