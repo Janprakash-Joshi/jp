@@ -21,4 +21,15 @@ function toggle1(){
 function sorry(){
     alert("Sorry we are unable to perform this operation right now !");
 }
+var d=document.getElementById('body');
+var e=document.getElementById('loader');
+var f=document.getElementById('cointainer');
+
+setTimeout(loader,5000)
+    function loader(){
+        d.style.backgroundColor='white';
+      e.style.display='none';
+      f.style.display='block';
+    }
+
 
