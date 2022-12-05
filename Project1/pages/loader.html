@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    :root{
+     color-scheme: dark;
+    }
+     *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.loader1{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);
+    animation: roll 2s linear infinite;
+}
+
+@keyframes roll{
+    0%{
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+.loader1::before{
+ content:"";
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    bottom: 6px;
+    left: 6px;
+    background-color: #000;
+    border-radius: 50%;
+    z-index: 1000;
+}
+.loader1::after{
+    content: "";
+    position: absolute;
+    background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #000;
+    border-radius: 50%;
+    z-index: 1;
+    filter: blur(30px);
+
+}
+
+    
+    </style>
+</head>
+<body>
+   <div class="loader1"></div>
+    
+</body>
+</html>
