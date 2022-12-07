@@ -89,8 +89,10 @@ setTimeout(loader,5000)
                 review.innerHTML=i+'+';
                    
                 } 
-           
-                i++;
+                if(window.pageYOffset > 500){
+                    i++;
+                }
+                
          
                 if(i<50){
                     project.innerHTML=i+'+'; 
