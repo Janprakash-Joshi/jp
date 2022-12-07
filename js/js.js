@@ -36,6 +36,8 @@ setTimeout(loader,5000)
   
   var moon=document.getElementsByClassName('moon');
   var sun=document.getElementsByClassName('sun');
+  var logo=document.getElementById('logo');
+  var logo1=document.getElementById('logo1');
     mood[0].onclick= function(){
         document.body.classList.toggle('darkmood');
         if(document.body.classList.contains('darkmood')){
@@ -50,6 +52,13 @@ setTimeout(loader,5000)
              sun[1].style.display='none';
              moon[1].style.display='block';
         }
+        if(document.body.classList.contains('darkmood')){
+            logo.src='/img/drkport.png';
+        }
+        else{
+            logo.src='/img/best-portfoli-wp-theme.png'; 
+        }
+
     }
 
     mood[1].onclick= function(){
@@ -66,6 +75,12 @@ setTimeout(loader,5000)
              sun[1].style.display='none';
              moon[1].style.display='block';
              
+        }
+        if(document.body.classList.contains('darkmood')){
+            logo1.src='/img/drkport.png';
+        }
+        else{
+            logo1.src='/img/best-portfoli-wp-theme.png'; 
         }
     }
 

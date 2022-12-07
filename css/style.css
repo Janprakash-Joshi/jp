@@ -31,9 +31,7 @@ body{
 #cointainer{
     background-color: var(--bgbg);
 }
-.logo img{
-    background-color: white;
-}
+
 .dkbl{
     color: var(--dkbl);
 }
