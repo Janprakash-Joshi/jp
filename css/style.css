@@ -2,15 +2,37 @@
     --dkbl: #6C55E0;
     --bg:rgba(108,85,224, 0.1);
     --ft:#00171f;
+    --bgbg:white;
+    --text-black:black;
+    --hirebg:rgba(0, 0, 0, 0.842);
+    --light-dark:#333;
+   
+}
+.darkmood{
+    --bg:rgb(49, 49, 49);
+    --text-black:white;
+    --bgbg:black;
+    --hirebg:rgba(139, 138, 138, 0.842);
+    --light-dark:wheat;
 }
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+a:visited{
+   color: var(--text-black);
+}
 body{
-    background-color: #000;
+    color: var(--text-black) ;
+    background-color: black;
     font-family: 'Open Sans', sans-serif;
+}
+#cointainer{
+    background-color: var(--bgbg);
+}
+.logo img{
+    background-color: white;
 }
 .dkbl{
     color: var(--dkbl);
@@ -24,9 +46,10 @@ body{
     align-items: center;
     position: fixed;
     width: 100%;
-    background: white;
+    background: var(--bgbg);
     z-index: 1;
     box-shadow:10px 12px 15px  rgba(0, 0, 0, 0.568);
+    border-bottom: 1px solid gray;
 
 }
 .menuoptions span{
@@ -40,10 +63,12 @@ body{
     display: none;
     justify-content: space-around;
     width: 100%;
-    background-color: white;
+    align-items: center;
+    background-color: var(--bgbg);
     z-index: 9;
     box-shadow:10px 12px 15px  rgba(0, 0, 0, 0.568);
-
+    border-bottom: 1px solid gray;
+  
 }
 .menu{
     padding: 1rem;
@@ -55,7 +80,7 @@ body{
     align-items: center;
     padding-top: 6rem;
     height: fit-content;
-    background: white;
+    background: var(--bgbg);
     width: 100%;
     z-index: 2;
     box-shadow:10px 12px 15px  rgba(0, 0, 0, 0.568);
@@ -138,7 +163,7 @@ hr {
 }
 .name{
     font-size: 9vw;
-    color: #333;
+    color: var(--light-dark);
     margin: 20px -10px 5px -10px;
 }
 .flex{
@@ -220,7 +245,7 @@ hr {
     flex-wrap: wrap;
 }
 .hire{
-    background-color: rgba(0, 0, 0, 0.842);
+    background-color: var(--hirebg);
     background-image: url(/img/psay.png);
     background-attachment: fixed;
     background-position: center;
@@ -303,7 +328,7 @@ hr {
     padding: 2rem;
 
   margin: 2rem;
-    background-color: white;
+    background-color: var(--bgbg);
     box-shadow:10px 12px 15px  rgba(0, 0, 0, 0.568);
     border-radius: 10px;
    
@@ -312,7 +337,7 @@ hr {
 .form{
     margin: 2rem;
    padding: 1rem;
-    background-color: white;
+    background-color: var(--bgbg);
     display: flex;
     flex-wrap: wrap;
     box-shadow:10px 12px 15px  rgba(0, 0, 0, 0.568);
@@ -452,7 +477,7 @@ svg{
 }
 
 .socialmedia a{
-    background-color: #6C55E0;
+    background-color: var(--dkbl);
     padding:10px;
    
     border-bottom: 1px solid gray;
@@ -461,4 +486,12 @@ svg{
 .social svg{
     width: 16px;
     color: white;
+}
+#sun{
+    display: none;
+}
+#mood{
+    cursor: pointer;
+    margin-right: 1rem;
+   
 }

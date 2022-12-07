@@ -32,4 +32,40 @@ setTimeout(loader,5000)
       f.style.display='block';
     }
 
+  var mood= document.getElementsByClassName('mood');
+  
+  var moon=document.getElementsByClassName('moon');
+  var sun=document.getElementsByClassName('sun');
+    mood[0].onclick= function(){
+        document.body.classList.toggle('darkmood');
+        if(document.body.classList.contains('darkmood')){
+            moon[0].style.display='none';
+            sun[0].style.display='block';
+            moon[1].style.display='none';
+            sun[1].style.display='block';
+        }
+        else{
+            sun[0].style.display='none';
+             moon[0].style.display='block';
+             sun[1].style.display='none';
+             moon[1].style.display='block';
+        }
+    }
+
+    mood[1].onclick= function(){
+        document.body.classList.toggle('darkmood');
+        if(document.body.classList.contains('darkmood')){
+            moon[0].style.display='none';
+            sun[0].style.display='block';
+            moon[1].style.display='none';
+            sun[1].style.display='block';
+        }
+        else{
+            sun[0].style.display='none';
+             moon[0].style.display='block';
+             sun[1].style.display='none';
+             moon[1].style.display='block';
+        }
+    }
+
 
