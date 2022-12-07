@@ -65,7 +65,42 @@ setTimeout(loader,5000)
              moon[0].style.display='block';
              sun[1].style.display='none';
              moon[1].style.display='block';
+             
         }
     }
 
+    // counter
+
+   
+
+   
+   var i=0;
+    var project=document.getElementById('project');
+    var review=document.getElementById('review');
+   
+    window.addEventListener('scroll', function() {
+       
+       const counter=setInterval(() => {
+       
+            
+           
+            if(i<46){
+            
+                review.innerHTML=i+'+';
+                   
+                } 
+           
+                i++;
+         
+                if(i<50){
+                    project.innerHTML=i+'+'; 
+                    
+                }
+                else{
+                    clearInterval(counter);
+                }
+       }, 3000);        
+
+
+});
 
