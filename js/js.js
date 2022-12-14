@@ -120,4 +120,48 @@ setTimeout(loader,5000)
 
 
 });
+  window.addEventListener("scroll",function(event){
+    var scroll=this.scrollY;
+    if(scroll < 250){
+        document.getElementById('hrline').classList.remove('ml17');
+        document.getElementById('hrline').classList.remove('ml34');
+        document.getElementById('hrline').classList.remove('ml51');
+        document.getElementById('hrline').classList.remove('ml68');
+        document.getElementById('hrline').classList.remove('ml85');
+       
+    }
+    if(scroll >= 250){
+        document.getElementById('hrline').classList.add('ml17');
+        document.getElementById('hrline').classList.remove('ml34');
+        document.getElementById('hrline').classList.remove('ml51');
+        document.getElementById('hrline').classList.remove('ml68');
+        document.getElementById('hrline').classList.remove('ml85');
+      
+    }
+    if(scroll >= 750){
+        document.getElementById('hrline').classList.add('ml34');
+        document.getElementById('hrline').classList.remove('ml51');
+        document.getElementById('hrline').classList.remove('ml68');
+        document.getElementById('hrline').classList.remove('ml85');
+        
+    }
+    if(scroll >= 1450){
+        document.getElementById('hrline').classList.add('ml51');
+        document.getElementById('hrline').classList.remove('ml68');
+        document.getElementById('hrline').classList.remove('ml85');
+        
+    }
+    // if(scroll >= 1450){
+    //     document.getElementById('hrline').classList.add('ml68');
+    //     document.getElementById('hrline').classList.remove('ml85');
+       
+    // }
+    if(scroll >= 2000){
+        document.getElementById('hrline').classList.add('ml85');
+        
+    }
+  });
+  
+  
+  
 

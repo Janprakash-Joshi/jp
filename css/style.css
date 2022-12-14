@@ -111,21 +111,21 @@ hr {
     border: none;
     transition: .5s ease-in-out;
   }
-  .two:hover ~ hr {
+  .two:hover ~ hr,.ml17{
     margin-left: 17%;
   }
   
-  .three:hover ~ hr {
+  .three:hover ~ hr,.ml34{
     margin-left: 34%;
   }
   
-  .four:hover ~ hr {
+  .four:hover ~ hr,.ml51{
     margin-left: 51%;
   }
-  .five:hover ~ hr {
+  .five:hover ~ hr,.ml68 {
     margin-left: 68%;
   }
-  .six:hover ~ hr {
+  .six:hover ~ hr,.ml85 {
     margin-left: 85%;
   }
 
@@ -391,7 +391,7 @@ svg{
    margin: 5px;
 }
 
-@media (max-width:865px) {
+@media (max-width:915px) {
     .nav{
         display: none;
     }
