@@ -111,6 +111,9 @@ hr {
     border: none;
     transition: .5s ease-in-out;
   }
+  .one:hover~hr{
+    margin: 0;
+  }
   .two:hover ~ hr,.ml17{
     margin-left: 17%;
   }
