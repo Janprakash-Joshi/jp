@@ -51,7 +51,7 @@ body{
 
 }
 .menuoptions span{
-   margin: 1rem;
+   margin: 1.2rem;
   
    
 }
@@ -105,7 +105,7 @@ a{
 }
 hr {
     height: .25rem;
-    width: 15%;
+    width: 16%;
     margin: 0;
     background: var(--dkbl);
     border: none;
@@ -115,21 +115,22 @@ hr {
     margin: 0;
   }
   .two:hover ~ hr,.ml17{
-    margin-left: 17%;
+    margin-left: 20%;
   }
   
   .three:hover ~ hr,.ml34{
-    margin-left: 34%;
+    margin-left: 40%;
   }
   
   .four:hover ~ hr,.ml51{
-    margin-left: 51%;
+    margin-left: 60%;
   }
   .five:hover ~ hr,.ml68 {
-    margin-left: 68%;
+    margin-left: 80%;
   }
   .six:hover ~ hr,.ml85 {
-    margin-left: 85%;
+    margin-left: 80%;
+    width: 18%;
   }
 
 .button{
@@ -247,7 +248,7 @@ hr {
 }
 .hire{
     background-color: var(--hirebg);
-    background-image: url(/img/psay.png);
+    background-image: url(../img/psay.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

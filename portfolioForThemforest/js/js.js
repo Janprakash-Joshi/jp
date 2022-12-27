@@ -53,10 +53,10 @@ setTimeout(loader,5000)
              moon[1].style.display='block';
         }
         if(document.body.classList.contains('darkmood')){
-            logo.src='/img/drkport.png';
+            logo.src='./img/portfolio-1.png';
         }
         else{
-            logo.src='/img/best-portfoli-wp-theme.png'; 
+            logo.src='./img/portfolio.png'; 
         }
 
     }
