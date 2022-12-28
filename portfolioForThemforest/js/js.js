@@ -53,10 +53,10 @@ setTimeout(loader,5000)
              moon[1].style.display='block';
         }
         if(document.body.classList.contains('darkmood')){
-            logo.src='./img/portfolio-1.png';
+            logo.src='../img/portfolio-1.png';
         }
         else{
-            logo.src='./img/portfolio.png'; 
+            logo.src='../img/portfolio.png'; 
         }
 
     }
@@ -77,10 +77,10 @@ setTimeout(loader,5000)
              
         }
         if(document.body.classList.contains('darkmood')){
-            logo1.src='/img/drkport.png';
+            logo1.src='../img/portfolio-1.png';
         }
         else{
-            logo1.src='/img/best-portfoli-wp-theme.png'; 
+            logo1.src='../img/portfolio.png'; 
         }
     }
 
