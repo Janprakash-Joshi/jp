@@ -1,0 +1,195 @@
+@media (max-width:1270px) {
+    .nav1 ul li{
+        margin: 0 1rem;
+       
+    }
+    .nav1 ul {
+        margin: 0 1rem;
+       
+    }
+}
+@media (max-width:1150px) {
+    .nav1 ul {
+       
+        font-size: 16px;
+    }
+    .nav1 ul li{
+       
+        font-size: 16px;
+    }
+}
+
+@media (max-width:1030px) {
+    #mood{
+        padding: 5px;
+    }
+    .nav1{
+        display: none;
+    }
+    .home-content {
+        margin-top: 5rem;
+         display: block;
+        padding: 1rem;
+    }
+    .contents {
+        padding: 1rem;
+        width: 100%;
+    }
+    .services {
+        text-align: center;
+        padding: 1rem;
+    }
+    .services>div div {
+        width: 75%;
+        margin: 5rem 1rem 0 1rem;
+        box-shadow: var(--shadow);
+        padding: 3rem 0;
+    }
+    #home{
+        height: 100%;
+    }
+    .home-btn {
+        margin: 1rem;
+       
+    }
+    .btn1 {
+       
+        margin-right: 1rem;
+    }
+    .about {
+       
+         display: block;
+    }
+    .progressbar {
+        padding: 2rem;
+         width: 100%; 
+    }
+    .years {
+       
+        padding: 1rem;
+        margin-top: -5rem;
+    }
+    .chooseus {
+       
+        flex-wrap: wrap;
+    }
+    .chooseusimg {
+       
+        margin-top: 0;
+    }
+    .chooseitem {
+        
+        justify-content: center;
+    }
+    .countercnt {
+       
+        margin: 1rem 0;
+    }
+    .trust {
+         display: block;
+         padding: 2rem;
+    } 
+    .trustimg {
+       
+     margin-top: 0;
+    }
+    #carousel button {
+       
+         padding: 0rem; 
+        font-size: 2rem;
+       
+    }
+    .testimonial {
+        padding: 1rem;
+        text-align: center;
+        height: auto;
+    }
+    .chooseitems {
+        width: 9rem;
+    }
+    .blog {
+        padding: 1rem;
+    }
+    
+    .blogs>div {
+        width: 75%;
+        margin: 3rem 0;
+    }
+    .workbg>div{
+   
+        padding: 5rem;
+    }
+    .footertop{
+        display: block;
+    }
+    .footertop input{
+        width: 100%;
+    }
+    .footertop .btn{
+        position: initial;
+        width: fit-content;
+    }
+    .team {
+   
+     margin-top: 0;
+    }
+   .footermiddle div{
+    width: 100%;
+    margin: 1rem 0;
+}
+.aboutimg {
+     padding: 1rem;
+
+}
+.sub-item1 {
+    font-size: 1rem !important;
+    display: none;
+    margin: -1rem;
+    border: none;
+    border-radius: 10px;
+    line-height: 3rem;
+  
+}
+.nav2{
+    display: flex;
+}
+}
+@media (max-width: 410px){
+.workbg>div {
+    padding: 1.2rem;
+}
+.footerend{
+    display: block;
+}
+.footerend div{
+    margin: 1rem;
+}
+.contents h1 {
+   
+    font-size: 3rem;
+}
+.aboutimg {
+     padding: 0;
+}
+.footertop{
+    padding: 1rem;
+}
+
+}
+
+@media (max-width: 335px){
+  
+.btn{
+    font-size: 12px;
+}
+.contents h1 {
+    font-size: 2rem;
+}
+.trusted h1 {
+    font-size: 2rem;
+}
+.home-btn {
+    
+    display: block;
+}
+}
