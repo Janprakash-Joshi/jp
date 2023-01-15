@@ -220,3 +220,47 @@ if (isValid) {
     photo.classList.add('projectbuttonsbg');
  }
 
+
+ //animation for project items
+
+ const observer2 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      
+      if (entry.isIntersecting) {
+       animation();
+        
+      }
+      else{
+        removeAnimation();
+      }
+    });
+  });
+
+
+  const div2 = document.getElementById("projectItems");
+  observer2.observe(div2);
+ function animation(){
+    var animation1=document.querySelectorAll('.animation1');
+ var animation2=document.querySelectorAll('.animation2');
+
+ animation1.forEach(ani=>{
+    ani.classList.add('detailsAnimation1')
+ })
+
+ animation2.forEach(ani=>{
+    ani.classList.add('detailsAnimation2')
+ })
+}
+function removeAnimation(){
+    var animation1=document.querySelectorAll('.animation1');
+ var animation2=document.querySelectorAll('.animation2');
+
+ animation1.forEach(ani=>{
+    ani.classList.remove('detailsAnimation1')
+ })
+
+ animation2.forEach(ani=>{
+    ani.classList.remove('detailsAnimation2')
+ })
+}
+ 

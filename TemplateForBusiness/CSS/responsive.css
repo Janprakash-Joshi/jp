@@ -102,8 +102,9 @@
     .testimonial {
         padding: 1rem;
         text-align: center;
-        height: auto;
+       
     }
+   
     .chooseitems {
         width: 9rem;
     }
@@ -182,6 +183,10 @@
 }
 .footertop{
     padding: 1rem;
+}
+
+.testimonial p{
+    margin-bottom: 6rem;
 }
 
 }

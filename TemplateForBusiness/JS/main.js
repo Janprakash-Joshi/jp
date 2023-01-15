@@ -215,5 +215,64 @@ if (isValid) {
   window.alert("Invalid email address");
 }
  }
+
+ //animation for project items
+
+ const observer2 = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    
+    if (entry.isIntersecting) {
+     animation();
+      
+    }
+    else{
+      removeAnimation();
+    }
+  });
+});
+
+
+const div2 = document.getElementById("projectItems");
+observer2.observe(div2);
+function animation(){
+  var animation1=document.querySelectorAll('.animation1');
+var animation2=document.querySelectorAll('.animation2');
+
+animation1.forEach(ani=>{
+  ani.classList.add('detailsAnimation1')
+})
+
+animation2.forEach(ani=>{
+  ani.classList.add('detailsAnimation2')
+})
+}
+function removeAnimation(){
+  var animation1=document.querySelectorAll('.animation1');
+var animation2=document.querySelectorAll('.animation2');
+
+animation1.forEach(ani=>{
+  ani.classList.remove('detailsAnimation1')
+})
+
+animation2.forEach(ani=>{
+  ani.classList.remove('detailsAnimation2')
+})
+}
+
  
- 
+ //15 years experience div animation
+ var years=document.getElementById('years');
+ const observer3 = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    
+    if (entry.isIntersecting) {
+      
+      years.classList.add('yearsAnimation');
+    }
+    else{
+      years.classList.remove('yearsAnimation');
+    }
+  });
+});
+const div3 = document.getElementById("years");
+observer3.observe(div3);

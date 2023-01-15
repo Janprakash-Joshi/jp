@@ -190,6 +190,22 @@ cslides.addEventListener('mouseleave',()=>{
     slider();
  });
 
+//15 years experience div animation
+var years=document.getElementById('years');
+const observer3 = new IntersectionObserver(entries => {
+ entries.forEach(entry => {
+   
+   if (entry.isIntersecting) {
+     
+     years.classList.add('yearsAnimation');
+   }
+   else{
+     years.classList.remove('yearsAnimation');
+   }
+ });
+});
+const div3 = document.getElementById("years");
+observer3.observe(div3);
 
 
  //email validation

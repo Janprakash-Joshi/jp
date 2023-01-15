@@ -380,6 +380,9 @@ img{
     color: var(--blue);
     padding: 5px;
 }
+.about h4{
+    color: var(--orange);
+}
 .about em{
     padding: 5px;
 }
@@ -401,6 +404,23 @@ img{
     border-radius: 10px;
     background-color: var(--light);
     margin-top: -10rem;
+}
+.yearsAnimation{
+    animation: years 3s 1;
+}
+@keyframes years {
+    0%{
+        transform: scale(0.8);
+      transition: transform 1s ease-in-out;
+    }
+    50%{
+        transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+    }
+    100%{
+        transform: scale(1);
+       transition: transform 1s ease-in-out;
+    }
 }
 
 .btn2{
@@ -543,10 +563,90 @@ img{
     margin: 5rem 0;
 }
 
+.projectlists{
+    text-align: center;
+    margin-top: 5rem;
+}
+.projectlists h3{
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.projectItems{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.projectItems div{
+   position: relative;
+    margin: 1rem;
+}
+.projectItems img{
+    width: 20rem;
+    height: 25rem;
+}
+.projectItems a:hover{
+    color: #7b68ee;
+}
+.details{
+    background-color: #000000d1;
+    position: absolute !important;
+    margin: 0 !important;
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.details h4{
+    color: blueviolet;
+}
+.details h4,h3{
+    background-color: --highlight;
+  padding: 10px;
+  text-align: center;
+}
+
+.detailsAnimation1{
+  animation: h4 3s 1;
+}
+@keyframes h4 {
+    0%{
+       margin-right: 0;
+       background-color: antiquewhite;
+    }
+     50%{
+        margin-right: 2rem;
+     }
+     100%{
+        margin-right: 0;
+     }
+}
+
+.detailsAnimation2{
+    animation: h3 3s 1;
+  }
+  @keyframes h3 {
+      0%{
+         margin-left: 0;
+         background-color: antiquewhite;
+        
+      }
+       50%{
+          margin-left: 2rem;
+       }
+       100%{
+        margin-left: 0;
+       }
+  }
+
 .testimonial{
     padding: 3rem;
     text-align: center;
-    height: 100vh;
+   
+}
+.testimonial p{
+    height: 10rem;
+    margin-bottom: -1rem;
 }
 .testimonial h3{
     color: var(--orange);
@@ -618,7 +718,7 @@ img{
 .blog{
     padding: 3rem;
    text-align: center;
-   margin-top: 3rem;
+   margin-top: 1rem;
 }
 .blog h3{
     color: var(--orange);
