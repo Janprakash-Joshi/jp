@@ -1,4 +1,11 @@
+//loader
+var loader=document.getElementById('loader');
+setTimeout(() => {
+    loader.classList.add('none');
+}, 2500);
+
 // mood
+
 
 var mood=document.getElementById('moodIcon');
 mood.onclick=()=>{
@@ -179,6 +186,11 @@ if (isValid) {
  var app=document.getElementById('app');
  var web=document.getElementById('web');
  var photo=document.getElementById('photo');
+
+ var branding=document.getElementById('branding');
+ var application=document.getElementById('application');
+ var webpage=document.getElementById('webpage');
+ var photography=document.getElementById('photography');
  
  all.onclick=()=>{
     all.classList.add('projectbuttonsbg');
@@ -186,6 +198,11 @@ if (isValid) {
    app.classList.remove('projectbuttonsbg');
    web.classList.remove('projectbuttonsbg');
    photo.classList.remove('projectbuttonsbg');
+
+   branding.classList.remove('none');
+   application.classList.remove('none');
+   webpage.classList.remove('none');
+   photography.classList.remove('none');
  }
 
  brand.onclick=()=>{
@@ -194,6 +211,11 @@ if (isValid) {
     app.classList.remove('projectbuttonsbg');
     web.classList.remove('projectbuttonsbg');
     photo.classList.remove('projectbuttonsbg');
+
+    branding.classList.remove('none');
+    application.classList.add('none');
+    webpage.classList.add('none');
+    photography.classList.add('none');
  }
 
  app.onclick=()=>{
@@ -202,6 +224,12 @@ if (isValid) {
     app.classList.add('projectbuttonsbg');
     web.classList.remove('projectbuttonsbg');
     photo.classList.remove('projectbuttonsbg');
+
+    
+    branding.classList.add('none');
+    application.classList.remove('none');
+    webpage.classList.add('none');
+    photography.classList.add('none');
  }
 
  web.onclick=()=>{
@@ -210,6 +238,13 @@ if (isValid) {
     app.classList.remove('projectbuttonsbg');
     web.classList.add('projectbuttonsbg');
     photo.classList.remove('projectbuttonsbg');
+
+
+    
+    branding.classList.add('none');
+    application.classList.add('none');
+    webpage.classList.remove('none');
+    photography.classList.add('none');
  }
 
  photo.onclick=()=>{
@@ -218,6 +253,12 @@ if (isValid) {
     app.classList.remove('projectbuttonsbg');
     web.classList.remove('projectbuttonsbg');
     photo.classList.add('projectbuttonsbg');
+
+    
+    branding.classList.add('none');
+    application.classList.add('none');
+    webpage.classList.add('none');
+    photography.classList.remove('none');
  }
 
 

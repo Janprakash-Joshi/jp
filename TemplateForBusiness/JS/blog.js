@@ -1,3 +1,9 @@
+//loader
+var loader=document.getElementById('loader');
+setTimeout(() => {
+    loader.classList.add('none');
+}, 2500);
+
 // mood
 
 var mood=document.getElementById('moodIcon');
