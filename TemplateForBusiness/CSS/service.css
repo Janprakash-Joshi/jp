@@ -1,0 +1,35 @@
+.servicepage{
+    position: relative;
+    z-index: 1;
+    background-image: url(../Images/service.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    opacity: 0.5;
+}
+.servicepagebg{
+   
+    background-color: black;
+    width: 100%;
+   margin-bottom: 1rem;
+}
+.serviceinner{
+    color: white;
+   
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 5rem;
+}
+.serviceinner h1{ 
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.serviceinner span{
+    margin-left: 1rem;
+}

@@ -3,28 +3,22 @@
 var mood=document.getElementById('moodIcon');
 mood.onclick=()=>{
     document.body.classList.toggle('darkmood');
-    let shape=document.getElementById('shapeimg');
+  
     let moodIcon=document.getElementById('moodIcon');
-    let chooseimg=document.getElementById('chooseimg');
-    let trustimg=document.getElementById('trustimg');
     let trusted=document.getElementById('trustedLogo');
     let trustedlogo=trusted.querySelectorAll('img');
     if(document.body.classList.contains('darkmood')){
         
-        shape.src='./Images/shape1.png';
-        moodIcon.src='./Images/sun.svg';
-        chooseimg.style.filter='invert(1)';
-        trustimg.style.filter='invert(1)';
-        trustedlogo.forEach(logo=>{
+        
+        moodIcon.src='../Images/sun.svg';
+              trustedlogo.forEach(logo=>{
             logo.style.filter='invert(1)';
         })
         
     }
     else{
-        shape.src='./Images/shape.png';
-        moodIcon.src='./Images/moon.svg';
-        chooseimg.style.filter='none';
-        trustimg.style.filter='none';
+       
+        moodIcon.src='../Images/moon.svg';
         trustedlogo.forEach(logo=>{
             logo.style.filter='none';
         })

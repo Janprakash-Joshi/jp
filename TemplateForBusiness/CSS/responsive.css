@@ -153,6 +153,15 @@
 .nav2{
     display: flex;
 }
+.contactinfo>div{
+   flex-wrap: wrap;
+   
+}
+.branch1,.branch2,.branch3{
+   
+    margin: 2rem;
+}
+
 }
 @media (max-width: 410px){
 .workbg>div {

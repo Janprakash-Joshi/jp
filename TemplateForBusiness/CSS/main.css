@@ -208,7 +208,7 @@ body{
     margin: 1rem;
 }
 .nav2 a{
-    color: var(--black);
+    color: var(--white);
    
 }
 
@@ -220,6 +220,7 @@ body{
     width: 100%;
 }
 .nav2 svg{
+    color: var(--white);
     margin: 1.5rem;
 }
 

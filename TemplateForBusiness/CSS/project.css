@@ -1,0 +1,131 @@
+.projectpage{
+    position: relative;
+    z-index: 1;
+    background-image: url(../Images/project.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    opacity: 0.4;
+}
+.projectpagebg{
+   
+    background-color: black;
+    width: 100%;
+  
+}
+.projectinner{
+    color: white;
+   
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 5rem;
+}
+.projectinner h1{ 
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.projectinner span{
+    margin-left: 1rem;
+}
+.projectlists{
+    text-align: center;
+    margin-top: 5rem;
+}
+.projectlists h3{
+    color: orange;
+    margin-bottom: 10px;
+}
+.projectbuttons{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.projectbuttons div{
+    box-shadow: 0px 5px 30px 0px rgb(148 146 245 / 25%);
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.projectbuttons div:hover{
+    background-color: #7b68ee;
+    transition: background-color 1s ease-in-out;
+    color: white;
+}
+.projectbuttonsbg{
+    background-color: #7b68ee;
+    color: white;
+}
+.projectItems{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.projectItems div{
+   position: relative;
+    margin: 1rem;
+}
+.projectItems img{
+    width: 20rem;
+    height: 25rem;
+}
+.projectItems a:hover{
+    color: #7b68ee;
+}
+.details{
+    background-color: #000000d1;
+    position: absolute !important;
+    margin: 0 !important;
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.details h4{
+    color: blueviolet;
+}
+.details h4,h3{
+    background-color: --highlight;
+  padding: 10px;
+  text-align: center;
+}
+
+.detailsAnimation1{
+  animation: h4 3s 1;
+}
+@keyframes h4 {
+    0%{
+       margin-right: 0;
+       background-color: antiquewhite;
+    }
+     50%{
+        margin-right: 2rem;
+     }
+     100%{
+        margin-right: 0;
+     }
+}
+
+.detailsAnimation2{
+    animation: h3 3s 1;
+  }
+  @keyframes h3 {
+      0%{
+         margin-left: 0;
+         background-color: antiquewhite;
+        
+      }
+       50%{
+          margin-left: 2rem;
+       }
+       100%{
+        margin-left: 0;
+       }
+  }

@@ -1,0 +1,135 @@
+:root{
+    --black:#000;
+    --shadow: 0 3px 15px rgb(0 0 0 / 5%), 0 5px 15px rgb(0 0 0 / 3%);
+}
+.contactpage{
+    position: relative;
+    z-index: 1;
+    background-image: url(../Images/contact.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    opacity: 0.3;
+}
+.contactpagebg{
+   
+    background-color: black;
+    width: 100%;
+  
+}
+.contactinner{
+    color: white;
+   
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 5rem;
+}
+.contactinner h1{ 
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.contactinner span{
+    margin-left: 1rem;
+}
+
+.contactinfo{
+    text-align: center;
+    padding: 3rem;
+}
+.contactinfo h3{
+    color: orange;
+}
+.contactinfo h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.contactinfo h2{
+    
+    font-weight: 500;
+}
+.contactinfo a{
+    color: var(--black);
+    padding: 1rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+.contactinfo a:hover{
+    color: blueviolet;
+}
+.contactinfo p{
+    margin: 1rem;
+    
+}
+.contactinfo>div{
+    display: flex;
+   
+}
+
+.branch1,.branch2,.branch3{
+  box-shadow: var(--shadow);
+  margin: 5rem 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  border-top: 3px solid #7b68ee;
+}
+
+.form{
+    text-align: center;
+}
+.form h3{
+    color: orange;
+}
+.form input{
+    font-size: 1rem;
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+    padding-right: 3rem;
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+    border-left: 3px solid #7b68ee
+    
+}
+.forminput{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+   
+}
+.form textarea{
+    font-size: 1rem;
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+    padding-right: 2rem;
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+    border-left: 3px solid #7b68ee
+}
+
+.form textarea:focus{
+    border: none;
+}
+.form .btn{
+    width: fit-content;
+    text-align: center;
+    margin: 1rem;
+}
+.formsms{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.form .btn:hover{
+    transform: scale(1);
+    background: #7b68ee;
+}

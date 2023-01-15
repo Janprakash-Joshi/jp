@@ -1,0 +1,35 @@
+.aboutpage{
+    position: relative;
+    z-index: 1;
+    background-image: url(../Images/about.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    opacity: 0.5;
+}
+.aboutpagebg{
+   
+    background-color: black;
+    width: 100%;
+
+}
+.aboutinner{
+    color: white;
+   
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 5rem;
+}
+.aboutinner h1{ 
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.aboutinner span{
+    margin-left: 1rem;
+}
