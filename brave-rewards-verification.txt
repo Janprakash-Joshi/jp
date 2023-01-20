@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: janprakash.com.np
+Token: b985ddde08cf34c4026925005b42ad275606ca14c336dd92c8fac127d1d00572
