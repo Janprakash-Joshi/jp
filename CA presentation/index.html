@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+     <div id="wc">
+      <h1>Cache Coherence</h1>
+      <p>Janprakash Joshi</p>
+      <p><i>BCA, 192011</i></p>
+    
+     </div>
+    <div id="slider">
+        <div class="slide">
+         <h1>Cache Coherence</h1>
+         <p>
+            In a multiprocessor system, data inconsistency may occur among adjacent levels or within the same level of the memory hierarchy. In a shared memory multiprocessor with a separate cache memory for each processor, it is possible to have many copies of any one instruction operand: one copy in the main memory and one in each cache memory. When one copy of an operand is changed, the other copies of the operand must be changed also.
+
+         </p>
+        </div>
+        <div class="slide">
+            <h1>Example : </h1>
+            <p>Cache and the main memory may have inconsistent copies of the same object.</p>
+            <img src="/cacheCoherenceGfGjpg.png" alt="" >
+            <p>Suppose there are three processors, each having cache. Suppose the following scenario:-</p>
+            <ul>
+                <li>Processor 1 read X : obtains 24 from the memory and caches it.</li>
+                <li>Processor 2 read X : obtains 24 from memory and caches it.</li>
+                <li>Again, processor 1 writes as X : 64, Its locally cached copy is updated. Now, processor 3 reads X, what value should it get?</li>
+                <li>Memory and processor 2 thinks it is 24 and processor 1 thinks it is 64.</li>
+            </ul>
+        </div>
+        <div class="slide">
+          
+            <h1>There are two main types of cache coherence protocols:</h1>
+             <h2>1. Directory-based protocols:</h2>
+             <p>This protocol uses a central directory to keep track of which processor has a copy of a memory location. When a processor modifies a location, it informs the directory and other processors are informed to invalidate their copy of that location.</p>
+             <h2>2. Snooping protocols:</h2>
+             <p>This protocol allows processors to snoop on the memory bus to monitor for modifications to shared locations. When a processor modifies a location, all other processors snoop the bus and invalidate their copy of that location.</p>
+            </div>
+        <div class="slide">
+          <h1>Examples of cache coherence protocols include:</h1>
+          <h2>1. MSI (Modified, Shared, Invalid):</h2>
+          <p>used for single-processor systems</p>
+          <h2>2. MESI (Modified, Exclusive, Shared, Invalid): </h2>
+          <p>used for multi-processor systems</p>
+          <h2>3. MOESI (Modified, Owned, Exclusive, Shared, Invalid): </h2>
+          <p>used for multi-processor systems</p>
+        </div>
+        <div class="slide">
+          <h1>Conclusion</h1>
+          <ul>
+            <li> <p>Cache coherence is an important aspect of computer architecture that ensures data consistency and improves system performance.</p></li>
+            <li><p>Cache coherence is a mechanism that ensures that all copies of a shared resource are consistent with each other.</p></li>
+            <li><p>Two main types of cache coherence protocols are directory-based and snooping protocols.</p></li>
+            <li><p>Examples of cache coherence protocols are MSI, MESI, MOESI.</p></li>
+            <li><p>Cache coherence is an important aspect of computer architecture that ensures data consistency and improves system performance.</p></li>
+          </ul>
+         
+          
+        </div>
+        <div class="slide">
+          <h1>Thank You !</h1>
+        </div>
+      </div>
+      <center style="background: #000000ba;"><div id="cnt">Next</div></center>
+      <script src="/js.js"></script>
+</body>
+</html>
