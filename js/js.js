@@ -162,6 +162,12 @@ setTimeout(loader,5000)
     }
   });
   
+
+ var cvbtn=document.getElementById('cvbtn');
+  cvbtn.onclick=()=>{
+    window.open("https://drive.google.com/file/d/1aBkTtgkXcukjhVaRyv2Tz7bPmEQuSKeD/preview","popup","width=auto, height=auto");
+   
+  }
   
   
 
