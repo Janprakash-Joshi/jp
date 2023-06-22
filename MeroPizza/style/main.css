@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto Slab', serif;;
+
+}
+
+:root {
+    --white: rgb(255, 255, 255);
+}
+
+body {
+    background-color: black;
+    color: var(--white);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.head {
+  z-index: 9;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.319);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.head1{
+    background-color: #000000eb;
+    animation: head 1s 1;
+}
+@keyframes head {
+    0%{
+        margin-top: rem;
+    }
+    
+}
+.head1:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    content: "";
+    background-repeat: repeat;
+    background: url(/MeroPizza/img/border.png);
+    height: 6px;
+    display: block;
+}
+.logo img {
+    width: 10vw;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3rem;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    margin-right: 10vw;
+
+}
+
+.border {
+    margin-top: -1rem;
+}
+
+.border img {
+    max-width: 100%;
+}
+
+.banner-video {
+
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+
+    opacity: 0.4;
+    z-index: -1;
+    position: relative;
+}
+
+.banner-video video {
+    max-width: 100%;
+}
+
+.banner-text {
+    position: relative;
+   
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text h1 {
+    font-size: 3.5rem;
+    margin: 1.5rem;
+}
+
+.call-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-us h1 {
+    color: yellow;
+    font-weight: bold;
+}
+
+.call-us a {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.service {
+    margin-top: -5rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: red;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.buy-now-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #46ff007a;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+.buy-now-button:hover {
+    background-color: #45a049;
+}
+
+.popularfood {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.pizza img{
+    max-width: 10vw;
+    margin: 1rem;
+}
+
+.popularfood{
+ margin-top: 5rem;
+}
+
+.card{
+    
+    width: 33%;
+    justify-content: center;
+    gap: 2rem;
+    display: flex;
+    position: relative;
+    transition: all 0.5s ease;
+    padding: 1rem;
+    box-shadow: 0 0 18px rgb(212 207 207);
+    margin: 2rem;
+    border-radius: 10px;
+}
+.card:hover{
+   transform: scale(1.1);
+}
+.card img{
+    max-width: 15vw;
+    border-radius: 50%;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+    justify-content: space-evenly;
+}
+.price{
+    font-size: 2rem;
+    color: #45a049;
+}
+.addtocart{
+    margin: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    color: red;
+    background: #212121;
+    border-radius: 10px;
+}
+.addtocart:hover{
+    transform: scale(1.1);
+    color: blue;
+
+
+
+}
+.slider{
+    padding: 1rem;
+    margin-top: 5rem;
+    text-align: center;
+    background-image: url(/MeroPizza/img/pizza1.png);
+    background-repeat: round;
+    background-position: center;
+    background-origin: initial;
+    background-attachment: fixed;
+}
+.reviews{
+    display: flex;
+}
+.review{
+    text-align: center;
+}
+.review span{
+    font-weight: bold;
+    margin: 5px;
+    font-size: 2rem;
+}
+.review p{
+    font-size: 1.5rem;
+}
+.review h1{
+    color: #ffcc00;
+}
+.review{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.arrow{
+    padding-top: 2rem;
+}
+.arrow svg{
+    transform: scale(2);
+}
+.arrow svg:hover{
+    transform: scale(2.2);
+    fill: #ffcc00;
+    cursor: pointer;
+}
+.review2, .review3, .review4{
+    display: none;
+}
+
+
