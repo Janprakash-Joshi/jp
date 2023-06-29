@@ -1,5 +1,5 @@
 .loginBanner{
-    background-image: url(/img/login.png);
+    background-image: url(../img/login.png);
     padding: 12rem 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -65,7 +65,7 @@ input:focus{
     left: -50%;
     top: 0;
     content: "";
-    background: url(/img/divider_login.png);
+    background: url(../img/divider_login.png);
     background-repeat: repeat;
     width: 6px;
     height: 630px;

@@ -55,7 +55,7 @@ a {
     margin: 0;
     content: "";
     background-repeat: repeat;
-    background: url(/img/border.png);
+    background: url(../img/border.png);
     height: 6px;
     display: block;
 }
@@ -247,7 +247,7 @@ a:hover {
     padding: 2rem;
     display: none;
     padding: 20px;
-    background-image:url(/img/pizza1.png);
+    background-image:url(../img/pizza1.png);
     animation: rv 3s 1;
   }
   .review h1{
@@ -261,7 +261,7 @@ a:hover {
     
 }
 .footer1{
-    background-image: url(/img/footer_bg.jpg);
+    background-image: url(../img/footer_bg.jpg);
     background-repeat: repeat;
     display: flex;
     justify-content: space-between;
@@ -302,7 +302,7 @@ a:hover {
 .footer2{
     padding: 1rem;
     display: flex;
-    background-image: url(/img/f_bg.jpg);
+    background-image: url(../img/f_bg.jpg);
     background-repeat: repeat;
     align-items: center;
     justify-content: space-between;
@@ -335,7 +335,7 @@ a:hover {
     top: -4px;
     margin: auto;
     content: "";
-    background: url(/img/border.png);
+    background: url(../img/border.png);
     width: 100%;
     height: 6px;
     background-repeat: no-repeat;

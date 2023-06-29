@@ -1,6 +1,6 @@
 .about{
     padding: 15rem 0;
-    background-image: url(/img/pizza1.png);
+    background-image: url(../img/pizza1.png);
     background-attachment: fixed;
     filter: saturate(1.5);
 }
