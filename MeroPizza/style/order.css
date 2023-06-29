@@ -1,0 +1,28 @@
+.order{
+    padding: 15rem 0;
+    background-image: url(/img/order.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.detail{
+    display: flex;
+    justify-content: space-around;
+}
+
+.status{
+    border: 1px solid gray;
+}
+table,th,td{
+    border: 1px solid gray;
+}
+th{
+    font-size: 3rem;
+    color: yellow;
+    font-weight: bold;
+    padding: 1vw 10vw;
+}
+td{
+    padding: 3vw 15vw;
+
+}

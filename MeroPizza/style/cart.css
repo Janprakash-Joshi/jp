@@ -1,0 +1,84 @@
+.cartBanner{
+    padding: 10rem 0;
+    background-image: url(/img/cart.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+.cart-items{
+    padding: 2rem 0;
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    color: yellow;
+  }
+  .cart-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    margin: 5px 0;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+  }
+  .quantity input {
+    text-align: center;
+    width: 10vw;
+    font-size: 1.2rem;
+    background-color: #111;
+    color: white;
+    border-radius: 10px;
+  }
+  .quantity button{
+    width: 3vw;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    background: wheat;
+
+  }
+  @media (max-width:420px) {
+    .cart-item{
+        flex-direction: column;
+    margin: 25px;
+    }
+    .quantity button {
+        width: 5vw;
+    }
+  }
+
+  .price{
+    color: green;
+  }
+  .price::before{
+    content: 'RS: ';
+  }
+
+  .checkOutBtn{
+    cursor: pointer;
+    margin: 1rem 0;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background: red;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .checkOutBtn:hover{
+    animation: btn 5s infinite;
+  }
+  @keyframes btn {
+    0%{
+        border: 3px solid gray;
+    
+    } 100%{
+        border: 3px solid yellow;
+    }
+  }

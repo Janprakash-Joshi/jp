@@ -1,0 +1,90 @@
+.loginBanner{
+    background-image: url(/img/login.png);
+    padding: 12rem 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+label{
+    font-size: 2rem;
+}
+input{
+    width: 20rem;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: white;
+    background: #111;
+   margin: 5px 0 2rem 0;
+
+}
+input:focus{
+    box-shadow: 0px 0px 5px 5px rgb(240 237 237 / 43%);
+}
+.loginBtn{
+    padding: 10px;
+    border-radius: 10px;
+    width: 6rem;
+    background: brown;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+.loginBtn:hover{
+    background-color: rgb(186, 220, 114);
+    color: #111;
+    animation: btn 2s 1;
+   
+}
+@keyframes btn {
+    0%{
+        box-shadow: 0px 0px 5px 5px rgb(240 237 237 / 43%);
+    }
+}
+.loginRegister{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+  
+}
+.registerForm{
+    position: relative;
+}
+.loginRegister h1{
+    color: yellow;
+    padding: 2rem 0;
+}
+.loginRegister a{
+    float: right;
+}
+
+.registerForm:after{
+    position: absolute;
+    left: -50%;
+    top: 0;
+    content: "";
+    background: url(/img/divider_login.png);
+    background-repeat: repeat;
+    width: 6px;
+    height: 630px;
+    transform: skew(-5deg);
+    filter: invert(1);
+}
+
+@media (max-width:1050px) {
+    .registerForm:after {
+        left: -25%;
+    }
+    
+}
+@media (max-width:850px) {
+    .registerForm:after {
+       display: none;
+    }
+    
+}
+.revert{
+    all:revert;
+}

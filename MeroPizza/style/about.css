@@ -1,0 +1,20 @@
+.about{
+    padding: 15rem 0;
+    background-image: url(/img/pizza1.png);
+    background-attachment: fixed;
+    filter: saturate(1.5);
+}
+.history{
+    padding: 5rem;
+}
+.history h1{
+    text-align: center;
+    color: yellow;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.history p{
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}

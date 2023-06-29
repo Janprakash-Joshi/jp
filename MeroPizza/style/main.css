@@ -9,7 +9,15 @@
 :root {
     --white: rgb(255, 255, 255);
 }
-
+.block{
+ display: block  !important;
+}
+.none{
+    display: none !important;
+}
+.flex{
+    display: flex !important;
+}
 body {
     background-color: black;
     color: var(--white);
@@ -47,7 +55,7 @@ a {
     margin: 0;
     content: "";
     background-repeat: repeat;
-    background: url(/MeroPizza/img/border.png);
+    background: url(/img/border.png);
     height: 6px;
     display: block;
 }
@@ -99,20 +107,19 @@ a {
 }
 
 .banner-text {
-    position: relative;
    
     padding: 20px;
     color: #fff;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 25vw;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .banner-text h1 {
-    font-size: 3.5rem;
-    margin: 1.5rem;
+    font-size: 3vw;
+    margin: 1.5vw;
 }
 
 .call-us {
@@ -185,7 +192,7 @@ a:hover {
 
 .card{
     
-    width: 33%;
+    width: 40%;
     justify-content: center;
     gap: 2rem;
     display: flex;
@@ -195,6 +202,8 @@ a:hover {
     box-shadow: 0 0 18px rgb(212 207 207);
     margin: 2rem;
     border-radius: 10px;
+    flex-direction: column;
+
 }
 .card:hover{
    transform: scale(1.1);
@@ -227,52 +236,196 @@ a:hover {
 
 
 
-}
-.slider{
-    padding: 1rem;
+}#slider-container {
     margin-top: 5rem;
     text-align: center;
-    background-image: url(/MeroPizza/img/pizza1.png);
-    background-repeat: round;
-    background-position: center;
-    background-origin: initial;
-    background-attachment: fixed;
+  }
+  
+  .review {
+    margin-top: 1rem;
+    height: 10rem;
+    padding: 2rem;
+    display: none;
+    padding: 20px;
+    background-image:url(/img/pizza1.png);
+    animation: rv 3s 1;
+  }
+  .review h1{
+    color: rgb(190, 190, 1);
+    margin: 5px;
+  }
+@keyframes rv {
+    0%{
+        margin-left: -10rem;
+    }
+    
 }
-.reviews{
+.footer1{
+    background-image: url(/img/footer_bg.jpg);
+    background-repeat: repeat;
     display: flex;
-}
-.review{
+    justify-content: space-between;
+    padding: 5rem;
     text-align: center;
 }
-.review span{
-    font-weight: bold;
-    margin: 5px;
-    font-size: 2rem;
+.title{
+    white-space: pre;
+    margin-bottom: 2rem;
+    color: yellow;
+   
 }
-.review p{
-    font-size: 1.5rem;
+.footer1 a, .footer1 p {
+    font-size: 26px;
+    line-height: 40px;
+    white-space: pre;
+    
 }
-.review h1{
-    color: #ffcc00;
+.footer1 ul li{
+    list-style: none;
 }
-.review{
-    margin-top: 2rem;
+.footer1>div:nth-child(2) {
+   border-left: 1px solid gray;
+   border-right: 1px solid gray;
+  
+    padding: 0 5rem;
+
+}
+.footer1 input{
+    padding: 1rem;
+    text-align: center;
+    margin: 2rem;
+    background: #111111;
+    color: white;
+    border-radius: 25px;
+    width: 20rem;
+}
+.footer2{
+    padding: 1rem;
     display: flex;
-    justify-content: space-around;
+    background-image: url(/img/f_bg.jpg);
+    background-repeat: repeat;
+    align-items: center;
+    justify-content: space-between;
 }
-.arrow{
-    padding-top: 2rem;
+.payment{
+    display: flex;
+    align-items: center;
 }
-.arrow svg{
-    transform: scale(2);
+.footer2 img{
+    margin: 1rem;
 }
-.arrow svg:hover{
-    transform: scale(2.2);
-    fill: #ffcc00;
+.button{
     cursor: pointer;
 }
-.review2, .review3, .review4{
+.footer3{
+    bottom: 0;
+    position: relative; 
+    float: left;
+    width: 100%;
+    text-align: center;
+    background: #e60000;
+    padding: 10px;
+
+}
+
+.footer3:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -4px;
+    margin: auto;
+    content: "";
+    background: url(/img/border.png);
+    width: 100%;
+    height: 6px;
+    background-repeat: no-repeat;
+}
+#show,#hide{
+    display: none;
+    position: absolute;
+    right: 0;
+  padding: 5px;
+  background: #111111bf;
+  border-radius: 10px;
+  z-index: 99;
+
+}
+@media (max-width: 1145px) {
+    .footer1{
+       
+    flex-direction: column;
+    }
+}
+
+@media (max-width:1050px) {
+    .head{
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #000000eb;
+    
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+    }
+    .menu{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+        .cart {
+           
+            margin-right: 0;
+            justify-content: space-around;
+    }
+    #show{
+        display: block;
+    }
+    .call-us a {
+        font-size: 1rem;
+    }
+    .service {
+        margin-top: -1rem;
+    }
+    .footer2{
+        flex-direction: column;
+
+    }
+}
+@media  (max-width:600px){
+    .footer1 p {
+        
+        white-space: normal;
+    } 
+    .card {
+        width: 60%;
+    }
+    .footer1{
+        padding: 0;
+    }
+    .footer2 img{
+        width: 35px;
+    }
+    
+}
+@media (max-width:380px){
+
+.buy-now-button{
     display: none;
 }
 
+.service{
+    flex-direction: column;
+}
+.footer1 input{
+    width: auto;
+}
+}
 
+
+.wrongEmail{
+    border: 3px solid red;
+    
+
+}
