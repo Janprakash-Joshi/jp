@@ -218,8 +218,11 @@
   <center ><h1>What We Offer</h1>
   <p>Subscribe Our NewsLetter</p>
   <br><br>
-  <input type="email" class="email" placeholder="Your E-mali Address" required><br><br>
-  <div class="button" style="width: 10rem;" onclick="sorry()" t>Subscribe Now<div>
+  <form action="" id="newsLetter">
+  <input type="email" name="Emails" class="email"  placeholder="Your E-mali Address" required><br><br>
+  <input type="hidden" name="Date"  value="x-sheetmonkey-current-date-time" >
+  <input class="button" style="width: 10rem;" value="Subscribe Now" type="submit">
+  </form>
   </center> 
   
   <!-- services -->
@@ -254,16 +257,18 @@
     <center><h1><b>Contact Me</b></h1></center>
     <div class="cnt">
    
-      <form action="" class="form">
+      <form  action="" method="post" class="form" id="customForm">
         <div class="input">
         Name: <br>
-        <input type="text" placeholder="Your Name"><br><br>
+        <input type="text" name="Name" required placeholder="Your Name"><br><br>
         Email: <br>
-        <input type="email" placeholder="Your Email"><br><br>
-        <div class="button btn" onclick="sorry()">Contact Us</div>
+        <input type="email" name="Email" required  placeholder="Your Email"><br><br>
+        <input type="hidden" name="Date" value="x-sheetmonkey-current-date-time" >
+        <input type="submit" value="Send" class="button btn">
+       
       </div>
         <div class="msg">
-         <textarea name="" id="" cols="30" rows="15" placeholder="Message"></textarea>
+         <textarea name="message" id="" cols="30" rows="15" placeholder="Message"></textarea>
         </div>
       </form>
    
@@ -334,5 +339,6 @@
  
 </div>
   <script src="/js/js.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

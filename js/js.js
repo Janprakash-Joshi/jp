@@ -171,3 +171,66 @@ setTimeout(loader,5000)
   
   
 
+//contact form 
+document.getElementById('customForm').addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent the default form submission behavior
+
+    // Get form data
+    const formData = new FormData(document.getElementById('customForm'));
+
+    // Perform the actual form submission to the API
+    fetch('https://api.sheetmonkey.io/form/toJVtP8RCSZj4d8CvabJHo', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => {
+        if (response.ok) {
+            // Successful submission
+            Swal.fire({
+                icon: 'success',
+                title: 'Thank You',
+                timer: 3500
+              })
+           document.getElementById('customForm').reset();
+        } else {
+            // Handle error response
+            console.error('Form submission error:', response.status);
+        }
+    })
+    .catch(error => {
+        console.error('Form submission error:', error);
+    });
+});
+
+
+//newsLetter
+
+document.getElementById('newsLetter').addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent the default form submission behavior
+
+    // Get form data
+    const newsLetterEmail = new FormData(document.getElementById('newsLetter'));
+
+    // Perform the actual form submission to the API
+    fetch('https://api.sheetmonkey.io/form/vg6aYMxhJmcbo3nqxGcKie', {
+        method: 'POST',
+        body:newsLetterEmail 
+    })
+    .then(response => {
+        if (response.ok) {
+            // Successful submission
+            Swal.fire({
+                icon: 'success',
+                title: 'Thank You',
+                timer: 3500
+              })
+           document.getElementById('newsLetter').reset();
+        } else {
+            // Handle error response
+            console.error('Form submission error:', response.status);
+        }
+    })
+    .catch(error => {
+        console.error('Form submission error:', error);
+    });
+});
