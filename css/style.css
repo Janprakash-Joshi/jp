@@ -249,15 +249,15 @@ hr {
     background-color: var(--hirebg);
     background-image: url(/img/psay.png);
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     transform: skew(0deg, -10deg);
     text-align: center;
-    padding: 10rem;
+    padding: 12rem;
     color: white;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
    box-shadow:10px 12px 15px  rgba(0, 0, 0, 0.568);
 
 }
