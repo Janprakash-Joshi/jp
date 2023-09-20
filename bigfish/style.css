@@ -1,0 +1,30 @@
+body
+{
+    background-color: black;
+}
+.logo{
+    /* background: linear-gradient(rgb(149, 100, 42), rgb(244, 234, 152), rgb(149, 100, 42));
+    height: 100px;
+    width: 100px; */
+    display: flex;
+   justify-content: center;
+}
+.logo img{
+    height: 100vh;
+    animation: logo 1s infinite;
+}
+@keyframes logo {
+    25%{
+        opacity: 0.9;
+    }
+    50%{
+        opacity: 0.8;
+    }
+    75%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0.5;
+    }
+
+}
