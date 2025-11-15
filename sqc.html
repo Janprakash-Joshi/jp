@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Workshop</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        height: 100vh;
+        display: flex;
+        background: #0d0d0d;
+        color: white;
+    }
+
+    .left {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        border-right: 3px solid #111;
+    }
+
+    iframe {
+    scale: 0.5;
+    width: 360px;
+    height: 532px;
+    border-radius: 20px;
+    border: 3px solid #333;
+    background: white;
+    }
+
+    .right {
+        flex: 1;
+        background: linear-gradient(135deg, #240046, #000);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1.1rem;
+        opacity: 0.8;
+        margin-bottom: 40px;
+    }
+
+    .present-btn {
+        padding: 18px 45px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: white;
+        background: #7f00ff;
+        border: none;
+        border-radius: 50px;
+        text-decoration: none;
+
+        /* Glow */
+        box-shadow: 0 0 15px #9d4bff, 0 0 30px #7f00ff;
+        animation: glow 1.6s infinite alternate;
+        cursor: pointer;
+    }
+
+    @keyframes glow {
+        0% { box-shadow: 0 0 10px #7f00ff; }
+        100% { box-shadow: 0 0 30px #b366ff; }
+    }
+
+</style>
+</head>
+<body>
+
+<!-- LEFT SIDE: Mobile Website View -->
+<div class="left">
+    <iframe src="https://janprakash.com.np"></iframe>
+</div>
+
+<!-- RIGHT SIDE: Welcome + Presentation Button -->
+<div class="right">
+    <h1>Welcome</h1>
+    <p>Learn AI today, lead the world tomorrow.</p>
+
+    <!-- OPEN POWERPOINT LOCALLY -->
+    <a href="ms-powerpoint:ofe|u|file:///C:/Users\janpr\Desktop\sqc\AI Workshop.pptx"
+       class="present-btn">
+       Present
+    </a>
+</div>
+
+</body>
+</html>
